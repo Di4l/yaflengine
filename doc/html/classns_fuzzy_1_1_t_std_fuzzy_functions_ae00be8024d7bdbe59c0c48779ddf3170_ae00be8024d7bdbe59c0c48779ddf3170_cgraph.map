@@ -1,0 +1,12 @@
+<map id="nsFuzzy::TStdFuzzyFunctions::registerFunctions" name="nsFuzzy::TStdFuzzyFunctions::registerFunctions">
+<area shape="rect" id="node2" href="$classns_fuzzy_1_1_t_fuzzy_base_a6723b64849a17ea90b9d0347351c1d37.html#a6723b64849a17ea90b9d0347351c1d37" title="nsFuzzy::TFuzzyBase\l::name" alt="" coords="553,63,697,105"/>
+<area shape="rect" id="node3" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a0678c36c56ff6b48e95aeef875bb7e79.html#a0678c36c56ff6b48e95aeef875bb7e79" title="nsFuzzy::TStdFuzzyFunctions\l::gaussBell" alt="" coords="261,5,451,46"/>
+<area shape="rect" id="node5" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a2cda6d1fdf858d91dcfee95682673f4c.html#a2cda6d1fdf858d91dcfee95682673f4c" title="nsFuzzy::TStdFuzzyFunctions::add" alt="" coords="245,121,467,148"/>
+<area shape="rect" id="node7" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a3738684d034937a47c06b9305d0789fa.html#a3738684d034937a47c06b9305d0789fa" title="nsFuzzy::TStdFuzzyFunctions\l::sCurve" alt="" coords="530,209,721,250"/>
+<area shape="rect" id="node8" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a78477c1d8fc0dd0b231af76e5728cc59.html#a78477c1d8fc0dd0b231af76e5728cc59" title="nsFuzzy::TStdFuzzyFunctions\l::inverseSCurve" alt="" coords="261,223,451,265"/>
+<area shape="rect" id="node9" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a595596f7bc43ac9f988bb3080b80bf6c.html#a595596f7bc43ac9f988bb3080b80bf6c" title="nsFuzzy::TStdFuzzyFunctions\l::triangle" alt="" coords="530,299,721,341"/>
+<area shape="rect" id="node10" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a337a1a5000e926cd743b401ee27fd6fa.html#a337a1a5000e926cd743b401ee27fd6fa" title="nsFuzzy::TStdFuzzyFunctions\l::inverseTriangle" alt="" coords="261,341,451,382"/>
+<area shape="rect" id="node11" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a271eb125ef6d91e0621245ca4efe14f4.html#a271eb125ef6d91e0621245ca4efe14f4" title="nsFuzzy::TStdFuzzyFunctions\l::interpolate" alt="" coords="261,406,451,447"/>
+<area shape="rect" id="node4" href="$classns_fuzzy_1_1_t_std_fuzzy_functions_a996cc7a0fb04b5a64db58b379016e484.html#a996cc7a0fb04b5a64db58b379016e484" title="nsFuzzy::TStdFuzzyFunctions::abs" alt="" coords="515,12,735,39"/>
+<area shape="rect" id="node6" href="$classns_fuzzy_1_1_t_fuzzy_base_a54902ac6c53aeddacde3b0c4b89bb3f4.html#a54902ac6c53aeddacde3b0c4b89bb3f4" title="nsFuzzy::TFuzzyBase\l::handle" alt="" coords="553,129,697,170"/>
+</map>
