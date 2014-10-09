@@ -1,0 +1,414 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Namespaces"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Lista de 'namespaces'"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy"><param name="Local" value="namespacens_fuzzy.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Clases"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Lista de clases"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyBase"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyBase"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a3dc43fa1679528a8627f7c3d6f2aefde.html#a3dc43fa1679528a8627f7c3d6f2aefde"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyBase"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_ad7d637b1f93d308a21286db50efc4ad0.html#ad7d637b1f93d308a21286db50efc4ad0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="handle"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a54902ac6c53aeddacde3b0c4b89bb3f4.html#a54902ac6c53aeddacde3b0c4b89bb3f4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="invalidNumber"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a5a4a5166b89a94f4bf2bfa8a9da7bce5.html#a5a4a5166b89a94f4bf2bfa8a9da7bce5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="invalidObject"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a2febf669abe1f3f591831febd126e629.html#a2febf669abe1f3f591831febd126e629"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a6723b64849a17ea90b9d0347351c1d37.html#a6723b64849a17ea90b9d0347351c1d37"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_aa258a7dad251672acac5c4ac617485e7.html#aa258a7dad251672acac5c4ac617485e7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="objects"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_aeaea5720e0cfa920e03a381bb6f660d3.html#aeaea5720e0cfa920e03a381bb6f660d3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator!="><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a12312270b2b1a9396df02ba0594ff8dc.html#a12312270b2b1a9396df02ba0594ff8dc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator=="><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a843c104b01d88de840a4adbfe35aa339.html#a843c104b01d88de840a4adbfe35aa339"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="parent"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a0a310027a9291532a4eed4295afaec48.html#a0a310027a9291532a4eed4295afaec48"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="toLower"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_afd24dc334f4d2adb5e5da3185cb3f0a5.html#afd24dc334f4d2adb5e5da3185cb3f0a5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="trim"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_adbb79473039a39a5fd53ef0dc89bbabb.html#adbb79473039a39a5fd53ef0dc89bbabb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="type"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a18a180d50b40cd23c7b867fb7e0a2f29.html#a18a180d50b40cd23c7b867fb7e0a2f29"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fbInvalid"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_af1bf7d2ef258f4b6781701193a635ef6.html#af1bf7d2ef258f4b6781701193a635ef6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fhLastHandle"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a7aeb63b16527adc3341bc86cff3ce6dd.html#a7aeb63b16527adc3341bc86cff3ce6dd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fvInvalid"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a1e664ecfbed0db6d136585c8c384b0c8.html#a1e664ecfbed0db6d136585c8c384b0c8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fzHandle"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a09a918995a52cf891dca752cda6e4627.html#a09a918995a52cf891dca752cda6e4627"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_iType"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_mObjects"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_pParent"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a11b3b7d41a8d21c0affb7c52eb0a0d45.html#a11b3b7d41a8d21c0affb7c52eb0a0d45"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strName"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyObjects"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyObjects"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_objects_af9b304f7be9b84f6a9b95749dc0ac02e.html#af9b304f7be9b84f6a9b95749dc0ac02e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyObjects"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_objects_a9988f79d67d5a4cc77fd1fb3402a848e.html#a9988f79d67d5a4cc77fd1fb3402a848e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="objects"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_objects_a0a26bda0472311576ff2be889f039952.html#a0a26bda0472311576ff2be889f039952"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_objects_a96335354b3807f4c7fe3abaacea14f31.html#a96335354b3807f4c7fe3abaacea14f31"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyError"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyError"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a7f479656bf7cbeaa366e84cb4f22800b.html#a7f479656bf7cbeaa366e84cb4f22800b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyError"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a98c275239529a8f94582d83bf57d573b.html#a98c275239529a8f94582d83bf57d573b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyError"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a711c13897f00c48d01a32b24f5fd044f.html#a711c13897f00c48d01a32b24f5fd044f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyError"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_ad4aca73e67a567ba2bf1f9a1a25a777a.html#ad4aca73e67a567ba2bf1f9a1a25a777a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="error"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a2ba3eb964d30a202cfe94a5f44fc09f8.html#a2ba3eb964d30a202cfe94a5f44fc09f8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="file"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_ad2115870976128b1207b6513763dfbf6.html#ad2115870976128b1207b6513763dfbf6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="line"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a338cb14be22587788c81afa6c83db9db.html#a338cb14be22587788c81afa6c83db9db"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="message"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_af6270e8163a7ea2ba267710bce51aa65.html#af6270e8163a7ea2ba267710bce51aa65"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="what"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a34878cc5a2113dd8d9ffba788353dd60.html#a34878cc5a2113dd8d9ffba788353dd60"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="where"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a0dfbb2220564147d1cee14b794481088.html#a0dfbb2220564147d1cee14b794481088"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="why"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a3a12b88b7e754f8080aaef0a2dbeee00.html#a3a12b88b7e754f8080aaef0a2dbeee00"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strFile"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strWhat"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c.html#abd168f9f05e27dd9808a40258221422c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strWhy"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1.html#a8c727e6f9a8d59946d619047374e4df1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_uiError"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe.html#af51eaa40a46642e909ad8693fbb285fe"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_uiLine"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TExecData"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TExecData"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_ac5e42ad8e22b3c3c43b6f6217583165d.html#ac5e42ad8e22b3c3c43b6f6217583165d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TExecData"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a75f632900022068e01f61b83d47e99db.html#a75f632900022068e01f61b83d47e99db"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a7deeab6edba83a697c07dac8260310a1.html#a7deeab6edba83a697c07dac8260310a1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="calculate"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a44ffb5ab0f8b5566fb742ff5267af31a.html#a44ffb5ab0f8b5566fb742ff5267af31a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a4cd211b5f6237cb236ba3ac30dc1f119.html#a4cd211b5f6237cb236ba3ac30dc1f119"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clearInputs"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a13067070fe9b8bc318263d66494665df.html#a13067070fe9b8bc318263d66494665df"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clearResults"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a8744e1f90bc536bfd41df428f33145e9.html#a8744e1f90bc536bfd41df428f33145e9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clearRules"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_ab14f48b833b0c0cbed74b1e783916f33.html#ab14f48b833b0c0cbed74b1e783916f33"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="defuzzyfy"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a77ba9695df5297e2bf63758b503fe73c.html#a77ba9695df5297e2bf63758b503fe73c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a314ebe5681215a7a5c1cf634b5862f92.html#a314ebe5681215a7a5c1cf634b5862f92"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="execute"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a54033bbb1630763aeabf8599404d08cf.html#a54033bbb1630763aeabf8599404d08cf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="fuzzyfy"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_ac7f58c4d12171f7c31ba0ed60678731e.html#ac7f58c4d12171f7c31ba0ed60678731e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="fuzzySet"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a0332cc37cbb49777379a6dfc6d00fb24.html#a0332cc37cbb49777379a6dfc6d00fb24"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="initialize"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a046437b04f0d4b21baff657f800fc6c0.html#a046437b04f0d4b21baff657f800fc6c0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="inputs"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_afe2115662a8abffb1120a40ba112fdc3.html#afe2115662a8abffb1120a40ba112fdc3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a6ecb9d3f5c30db5ee4a5d3082245a73a.html#a6ecb9d3f5c30db5ee4a5d3082245a73a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="resetLimits"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a0b0b824b497c3e6929d1b4672f98f2d5.html#a0b0b824b497c3e6929d1b4672f98f2d5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="result"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a432dd727cd84226f12448534f379727e.html#a432dd727cd84226f12448534f379727e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ruleResult"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_aeeb96eb5fb1556a9d2a38aa607de3b8e.html#aeeb96eb5fb1556a9d2a38aa607de3b8e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="rules"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_acce60eec67a56751e88a69a9c8f54973.html#acce60eec67a56751e88a69a9c8f54973"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="set"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_af890d8163118312133c6a8407833e9d1.html#af890d8163118312133c6a8407833e9d1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setLimits"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_ad1890f1b48c39efaf9f0193ed1cd0fb2.html#ad1890f1b48c39efaf9f0193ed1cd0fb2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="unset"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a49d11c41831ce399c1b96870eb7d745e.html#a49d11c41831ce399c1b96870eb7d745e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_emInputs"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a52eecdacf46c2a74cfb97d32faec628e.html#a52eecdacf46c2a74cfb97d32faec628e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_esStatus"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_ae7b2092ed6d6a6a0204142919a3a1772.html#ae7b2092ed6d6a6a0204142919a3a1772"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fmLimits"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_aee8eb32e200a4338e72a29876bcd29d8.html#aee8eb32e200a4338e72a29876bcd29d8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fmResults"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_accf0a9961c8d8873b8ea49835d3035d7.html#accf0a9961c8d8873b8ea49835d3035d7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fsSet"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a24f35244f5b25d281dc42f8ed4193720.html#a24f35244f5b25d281dc42f8ed4193720"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fvResult"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a4c7223f05c1cc8a53eabbab485016675.html#a4c7223f05c1cc8a53eabbab485016675"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_rlRules"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a7d9e16cf2a29fdd048e50455486298ee.html#a7d9e16cf2a29fdd048e50455486298ee"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyExec"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyExec"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a55fdd4664b92732449655d95dbd51bd0.html#a55fdd4664b92732449655d95dbd51bd0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyExec"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a569faba425df114d3ab01d779efffdf3.html#a569faba425df114d3ab01d779efffdf3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="calculate"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a5bbd2919ea171fef44af3f0ba1747ab3.html#a5bbd2919ea171fef44af3f0ba1747ab3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="createData"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a07157402787b6ab788565c0c195e3c1b.html#a07157402787b6ab788565c0c195e3c1b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="destroyData"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a4021e51617dcecf12f0281f6abcc0c26.html#a4021e51617dcecf12f0281f6abcc0c26"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="input"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_afc4d993e943a289630bd5a6820698fe7.html#afc4d993e943a289630bd5a6820698fe7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="input"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a87c55fdf3413c4eb048c81f4d3060bd9.html#a87c55fdf3413c4eb048c81f4d3060bd9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="log"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a34c6f679d2fdc26de9abeecdb6a34840.html#a34c6f679d2fdc26de9abeecdb6a34840"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="logClose"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a9613d68f954c77c8d0b7bcc881b26a7a.html#a9613d68f954c77c8d0b7bcc881b26a7a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="logging"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_afbe928a39b3ab391d19695b3a02aa40c.html#afbe928a39b3ab391d19695b3a02aa40c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="logOpen"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a3d5ddf0b25ddf72ab34e2f57cc53d5c8.html#a3d5ddf0b25ddf72ab34e2f57cc53d5c8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="model"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a0fb287b1bf4ba992cb1ae597f8c3ff53.html#a0fb287b1bf4ba992cb1ae597f8c3ff53"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="model"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a282c8ffe13ca1ebbe9aed8f8d0dd50c3.html#a282c8ffe13ca1ebbe9aed8f8d0dd50c3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_ae2613ba840c39cd760c8ac3e3047e399.html#ae2613ba840c39cd760c8ac3e3047e399"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a20da0efb983eabcecaf83a1d45b50e31.html#a20da0efb983eabcecaf83a1d45b50e31"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="output"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a0c40386194857cca529d7dd9adac3385.html#a0c40386194857cca529d7dd9adac3385"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="output"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a18f7d7ebf325bf11f85aaa14408aa31e.html#a18f7d7ebf325bf11f85aaa14408aa31e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setProcessChain"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a2f2a7813311630dedf8c996f64579ee5.html#a2f2a7813311630dedf8c996f64579ee5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fmModel"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a13851cae010d4f9b2f2a098bb8589744.html#a13851cae010d4f9b2f2a098bb8589744"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_mExecData"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a8141f0b70d9be86f5a224b6c89cec724.html#a8141f0b70d9be86f5a224b6c89cec724"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_osLogFile"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a17950d1c4ec5c4f3df219c60b5a910d3.html#a17950d1c4ec5c4f3df219c60b5a910d3"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SFuzzyFunction"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SFuzzyFunction"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_af9de73fd1f400d0fd565cc4d6136151a.html#af9de73fd1f400d0fd565cc4d6136151a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~SFuzzyFunction"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_ad2fdd00a49e6647ed6bd1aa69d505b03.html#ad2fdd00a49e6647ed6bd1aa69d505b03"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator!="><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_a201924286e0583f0998f20473f966b7f.html#a201924286e0583f0998f20473f966b7f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator=="><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_a06df6620c6bb07aa6ac1a0c020065710.html#a06df6620c6bb07aa6ac1a0c020065710"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Function"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_af8b67ed0e715938e465da16e516b7ff9.html#af8b67ed0e715938e465da16e516b7ff9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ParamCount"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_a0797077050b85d1d1ea62f4237fdda45.html#a0797077050b85d1d1ea62f4237fdda45"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TStdFuzzyFunctions"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TStdFuzzyFunctions"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_aa599d7dc108a56d1809a781396131014.html#aa599d7dc108a56d1809a781396131014"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TStdFuzzyFunctions"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_ae411e47ecf092632f362fb873a0484ba.html#ae411e47ecf092632f362fb873a0484ba"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="abs"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a996cc7a0fb04b5a64db58b379016e484.html#a996cc7a0fb04b5a64db58b379016e484"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a2cda6d1fdf858d91dcfee95682673f4c.html#a2cda6d1fdf858d91dcfee95682673f4c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_ac8234add9d52cc97264b417a2bf7c393.html#ac8234add9d52cc97264b417a2bf7c393"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="functions"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a246346b9318dcb19d796834ff76cf612.html#a246346b9318dcb19d796834ff76cf612"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="gaussBell"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a0678c36c56ff6b48e95aeef875bb7e79.html#a0678c36c56ff6b48e95aeef875bb7e79"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="instances"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a91aa0d20527efba6361f63f73eb6cd14.html#a91aa0d20527efba6361f63f73eb6cd14"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="interpolate"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a271eb125ef6d91e0621245ca4efe14f4.html#a271eb125ef6d91e0621245ca4efe14f4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="inverseSCurve"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a78477c1d8fc0dd0b231af76e5728cc59.html#a78477c1d8fc0dd0b231af76e5728cc59"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="inverseTriangle"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a337a1a5000e926cd743b401ee27fd6fa.html#a337a1a5000e926cd743b401ee27fd6fa"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_afc00e4bb6a8416ca05e0ec372bd381c0.html#afc00e4bb6a8416ca05e0ec372bd381c0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_aa71fbaf37ef65f21147b6535391f75f4.html#aa71fbaf37ef65f21147b6535391f75f4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a11363fd5aaec8896373fc08febf6babe.html#a11363fd5aaec8896373fc08febf6babe"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="registerFunctions"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_ae00be8024d7bdbe59c0c48779ddf3170.html#ae00be8024d7bdbe59c0c48779ddf3170"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="sCurve"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a3738684d034937a47c06b9305d0789fa.html#a3738684d034937a47c06b9305d0789fa"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_afac8711582c2c3cc42cd996f0a3e53aa.html#afac8711582c2c3cc42cd996f0a3e53aa"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="triangle"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a595596f7bc43ac9f988bb3080b80bf6c.html#a595596f7bc43ac9f988bb3080b80bf6c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_mFunctions"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_abefe214383289675d9146e2e7d3304e2.html#abefe214383289675d9146e2e7d3304e2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_uiInstances"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a3e8c4d793f6275a5ba1ef3ec3cd74c25.html#a3e8c4d793f6275a5ba1ef3ec3cd74c25"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyFunctions"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyFunctions"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_functions_a4720abf30694d78cb595a788d5912587.html#a4720abf30694d78cb595a788d5912587"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyFunctions"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_functions_a57be8801f8ef33b4d1e889f4a47d045d.html#a57be8801f8ef33b4d1e889f4a47d045d"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyModel"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyModel"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_ad866c52378b58e5b0adcd817e9124211.html#ad866c52378b58e5b0adcd817e9124211"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyModel"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_adb5335d9db0f4373edd6d59e7ba27a8c.html#adb5335d9db0f4373edd6d59e7ba27a8c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_ab1d8e414e7536e71a0f62e7caa74cd05.html#ab1d8e414e7536e71a0f62e7caa74cd05"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="configurationHint"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_ab7840c370ab5d5e2d508654b22ae9fa4.html#ab7840c370ab5d5e2d508654b22ae9fa4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="description"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_a49ccba72b6a5460b7846c28ff4bb70c4.html#a49ccba72b6a5460b7846c28ff4bb70c4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="loadFromFile"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_a63fda01d8327c31e73e7f06b6f2b3fc4.html#a63fda01d8327c31e73e7f06b6f2b3fc4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="rules"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_ad2f4b4d71a91d65a062c59d7314cf930.html#ad2f4b4d71a91d65a062c59d7314cf930"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="saveToFile"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_ae6830afdc9225e2d9fa9920815dd54d5.html#ae6830afdc9225e2d9fa9920815dd54d5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="sets"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_a89f785cd257e281fc3fcc348b78c11c7.html#a89f785cd257e281fc3fcc348b78c11c7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_frRules"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_aba787a384ac3bbbace278f5deb09afeb.html#aba787a384ac3bbbace278f5deb09afeb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fsSets"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_af02a60983b0924e5a1f2c52bb378ba66.html#af02a60983b0924e5a1f2c52bb378ba66"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strDescription"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_a5306aaed110f6ceff96a8b2c53085172.html#a5306aaed110f6ceff96a8b2c53085172"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyModels"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyModels"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_ab59e66784845113d4c7f5f6050a61268.html#ab59e66784845113d4c7f5f6050a61268"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyModels"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_abe4971fc2808ad0959941813a5b0e0a0.html#abe4971fc2808ad0959941813a5b0e0a0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_a2271d92881087c4e3b6f6b100e4fef41.html#a2271d92881087c4e3b6f6b100e4fef41"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_a09f748e6cc5a35c569a5c78b33180e20.html#a09f748e6cc5a35c569a5c78b33180e20"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_a8d08b1c3021f181cabcded4624cce107.html#a8d08b1c3021f181cabcded4624cce107"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_a1b2d733edaf24e0f49b4b4d5eac308e6.html#a1b2d733edaf24e0f49b4b4d5eac308e6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_a57b4b26ba151ca544099f8157b6361e8.html#a57b4b26ba151ca544099f8157b6361e8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_a6ff4146f5a5faf7022925ec962d4c58c.html#a6ff4146f5a5faf7022925ec962d4c58c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_afabc986a5c874d910a872ad95c504ada.html#afabc986a5c874d910a872ad95c504ada"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_mModels"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models_ad11cf3e9ebd811bb9aed9d128bcc3557.html#ad11cf3e9ebd811bb9aed9d128bcc3557"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SRuleAtom"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SRuleAtom"><param name="Local" value="structns_fuzzy_1_1_s_rule_atom_a695abc351c809e8acdd7f893fb23da3e.html#a695abc351c809e8acdd7f893fb23da3e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~SRuleAtom"><param name="Local" value="structns_fuzzy_1_1_s_rule_atom_ae9bc8836e5b0709aaf54e858d243dde8.html#ae9bc8836e5b0709aaf54e858d243dde8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Modifiers"><param name="Local" value="structns_fuzzy_1_1_s_rule_atom_a3769060bc10cc4a1f6eb79626edb15b9.html#a3769060bc10cc4a1f6eb79626edb15b9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Next"><param name="Local" value="structns_fuzzy_1_1_s_rule_atom_a35026aa0c68ca92e3b3a57caefd81947.html#a35026aa0c68ca92e3b3a57caefd81947"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Value"><param name="Local" value="structns_fuzzy_1_1_s_rule_atom_a0cb298cc679fbded877f12957fd02e46.html#a0cb298cc679fbded877f12957fd02e46"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SFuzzyRule"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SFuzzyRule"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule_ad1055fc98680711abc7ed7bff6975be7.html#ad1055fc98680711abc7ed7bff6975be7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~SFuzzyRule"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule_afa58eda650b03d55fab4e097a25e6e95.html#afa58eda650b03d55fab4e097a25e6e95"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator!="><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule_acf01a6a5813fea1280ff34c44a559c0b.html#acf01a6a5813fea1280ff34c44a559c0b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator=="><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule_afdadfa53e869ff441e26ba97848cc233.html#afdadfa53e869ff441e26ba97848cc233"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Links"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule_a1204c7b0aeca332018eb1beca8c2b425.html#a1204c7b0aeca332018eb1beca8c2b425"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="String"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule_a899bfe5d10a64b33f4e280ca261ec129.html#a899bfe5d10a64b33f4e280ca261ec129"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyRules"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyRules"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_a219c295474ce0b9b01fddbbc48739ecc.html#a219c295474ce0b9b01fddbbc48739ecc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyRules"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_affc8dc3533dff605d7ffb4dc530b42ee.html#affc8dc3533dff605d7ffb4dc530b42ee"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_ae5bda23f545a4bfe0a41c7ea882b9daf.html#ae5bda23f545a4bfe0a41c7ea882b9daf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_ada548c99c701cd29fe1951bab09cfdbb.html#ada548c99c701cd29fe1951bab09cfdbb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_af0b3341aa35fbaec3693581298a57f24.html#af0b3341aa35fbaec3693581298a57f24"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_ac5f9c8f28ad02eff698f4e4bd1c8b865.html#ac5f9c8f28ad02eff698f4e4bd1c8b865"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="parseRule"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_a237933a36fbf932b3ffd304153684bb3.html#a237933a36fbf932b3ffd304153684bb3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setModifiers"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_a4e9ae71657cd62d1df0e304066c68cba.html#a4e9ae71657cd62d1df0e304066c68cba"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_a42ea2a7deef5e26efe509a186d1ad01d.html#a42ea2a7deef5e26efe509a186d1ad01d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="splitModsValue"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_afbc03fa8841238dc034c6aea405185d7.html#afbc03fa8841238dc034c6aea405185d7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="invalid"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_a64befee8d6e9dd52750be69dc7a11e48.html#a64befee8d6e9dd52750be69dc7a11e48"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fsSets"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_a7f063ff571c9e64314540b0a86cd8427.html#a7f063ff571c9e64314540b0a86cd8427"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_vRules"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_af8db0a87b68dfdcb0293e9dfb8c8846b.html#af8db0a87b68dfdcb0293e9dfb8c8846b"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzySet"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzySet"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a16379c01ca00318b4add36186d8d5f00.html#a16379c01ca00318b4add36186d8d5f00"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzySet"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a6199fb1bb09a19ee54b6510d7a6cdd5f.html#a6199fb1bb09a19ee54b6510d7a6cdd5f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a39a3221a3ac10a3da7ef1459354fd439.html#a39a3221a3ac10a3da7ef1459354fd439"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a0497ea29c1e9bcc2e8ab796adbbf971d.html#a0497ea29c1e9bcc2e8ab796adbbf971d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_aae401d24534f276cbdb9a5c7e39994b8.html#aae401d24534f276cbdb9a5c7e39994b8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="execute"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_aef80a96ebc8d507b0642923096b41a64.html#aef80a96ebc8d507b0642923096b41a64"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="id"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a987405905a2900117d79cd9d70c9cf71.html#a987405905a2900117d79cd9d70c9cf71"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="max"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a59f2a1795b87ce6869eaa13edadc849f.html#a59f2a1795b87ce6869eaa13edadc849f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="min"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a4b7418552d59b48ef0f98f957b807eff.html#a4b7418552d59b48ef0f98f957b807eff"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_acce221f13dd11a3791201c6e07a84e8f.html#acce221f13dd11a3791201c6e07a84e8f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a62efde55ee8a85aaca161ed685e4ef06.html#a62efde55ee8a85aaca161ed685e4ef06"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a810df4348f1468faedad79b086cef3ea.html#a810df4348f1468faedad79b086cef3ea"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_aa271dca92310bbb09cb64106830f9387.html#aa271dca92310bbb09cb64106830f9387"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fvValues"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a480e6412a75f76490b2c207b5868762f.html#a480e6412a75f76490b2c207b5868762f"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzySets"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzySets"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_af5e3c3337abe2b6a3599bd6255493f58.html#af5e3c3337abe2b6a3599bd6255493f58"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzySets"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_a5f809c6cc17d913422bace89146df371.html#a5f809c6cc17d913422bace89146df371"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_ae89720e0b8bbce4568807178be11bb41.html#ae89720e0b8bbce4568807178be11bb41"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_a8c7d626ba0213197b3eeca04d7c2497e.html#a8c7d626ba0213197b3eeca04d7c2497e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_a4a4839ba68fd335561012aeecdcbaae3.html#a4a4839ba68fd335561012aeecdcbaae3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_af12c34011b34cc0879b728c7a9054adc.html#af12c34011b34cc0879b728c7a9054adc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_a466039de4389fbf67f3330bd19208be2.html#a466039de4389fbf67f3330bd19208be2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_aee44e0ab3d5a9d4f8b1e50dd1d66f49c.html#aee44e0ab3d5a9d4f8b1e50dd1d66f49c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_a5af7ec6381cc34aff845cd819b55cde5.html#a5af7ec6381cc34aff845cd819b55cde5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_mSets"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets_afd6a0dde7055270cb048c1913507c258.html#afd6a0dde7055270cb048c1913507c258"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyVal"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TFuzzyVal"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_ab4a835fe454a99905a8b7a9d1c6b6519.html#ab4a835fe454a99905a8b7a9d1c6b6519"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TFuzzyVal"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_aa66aa6445d866b4ca24722ecb2a43a44.html#aa66aa6445d866b4ca24722ecb2a43a44"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="calcMaxFunc"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a3405d1c3d1e3d24242d9689bac708afd.html#a3405d1c3d1e3d24242d9689bac708afd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="execute"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a62043526af978d7c64c619007fe8df6f.html#a62043526af978d7c64c619007fe8df6f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="exeFunction"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_aa57b64729e1156b65d902220b5fed4fd.html#aa57b64729e1156b65d902220b5fed4fd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="function"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_ac99af4eb7fc5d3b3b68a30343410ea2d.html#ac99af4eb7fc5d3b3b68a30343410ea2d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="functions"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a620c3bae90bb6f319939e7cdf562388f.html#a620c3bae90bb6f319939e7cdf562388f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="max"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_acc7c37361a2ae7452bb934fb5589fab0.html#acc7c37361a2ae7452bb934fb5589fab0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="max"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a6c679dc0eb5b596f441e254b727c1dc8.html#a6c679dc0eb5b596f441e254b727c1dc8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="maxF"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a93cdd920e76d219c7585e186d5897056.html#a93cdd920e76d219c7585e186d5897056"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="min"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a6f39d288c16b04b633e59dda51030684.html#a6f39d288c16b04b633e59dda51030684"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="min"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_ad44c95240bd3b62e4b3e44a67968b5ca.html#ad44c95240bd3b62e4b3e44a67968b5ca"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a378a1da4f3384026a8aa0307e1f541b5.html#a378a1da4f3384026a8aa0307e1f541b5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="set"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a7e9f5c834c0c3adff2068255ea5c80e8.html#a7e9f5c834c0c3adff2068255ea5c80e8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setFunction"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_ab480fc9de1526cfea607174823c2aab9.html#ab480fc9de1526cfea607174823c2aab9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setFunction"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a5651eda31b063e860d729e35ad16a7b0.html#a5651eda31b063e860d729e35ad16a7b0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_accd06f1822f1f66a247bfb145f15abec.html#accd06f1822f1f66a247bfb145f15abec"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a307dd552ac9faa7b7ef3212433218bd4.html#a307dd552ac9faa7b7ef3212433218bd4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_ffFunctions"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a90015a3f03cb2169b69053aa51808afb.html#a90015a3f03cb2169b69053aa51808afb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_ffId"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a05424149aff4b407c7e6d0b0f35828d3.html#a05424149aff4b407c7e6d0b0f35828d3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_fvMaxF"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a07626b69419130a6d2c6b9d605b02513.html#a07626b69419130a6d2c6b9d605b02513"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_vParams"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a032a261c8605800f0acfc0190ff0eecf.html#a032a261c8605800f0acfc0190ff0eecf"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsIniFile"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TParam"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TParam"><param name="Local" value="classns_ini_file_1_1_t_param_af4859d960fa80cd2c63b1a79ae7346b8.html#af4859d960fa80cd2c63b1a79ae7346b8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TParam"><param name="Local" value="classns_ini_file_1_1_t_param_a31803a451e4a078e955a638af932e2ba.html#a31803a451e4a078e955a638af932e2ba"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="comment"><param name="Local" value="classns_ini_file_1_1_t_param_adb09994b787865bb5d0fe4c6d2ac2149.html#adb09994b787865bb5d0fe4c6d2ac2149"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="classns_ini_file_1_1_t_param_a2919c040e1fe23045401affd14f08645.html#a2919c040e1fe23045401affd14f08645"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="value"><param name="Local" value="classns_ini_file_1_1_t_param_a4d64b69c26214cfe8fddbfd30e69c57c.html#a4d64b69c26214cfe8fddbfd30e69c57c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_ssValue"><param name="Local" value="classns_ini_file_1_1_t_param_ae8f35df33ef200cd9f3aaf2632d98cb8.html#ae8f35df33ef200cd9f3aaf2632d98cb8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strComment"><param name="Local" value="classns_ini_file_1_1_t_param_a1f8694cb4d0605d6f2ef1230292375a6.html#a1f8694cb4d0605d6f2ef1230292375a6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strName"><param name="Local" value="classns_ini_file_1_1_t_param_a1009cd8ec95e5c9d70c03921c729533f.html#a1009cd8ec95e5c9d70c03921c729533f"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TSection"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TSection"><param name="Local" value="classns_ini_file_1_1_t_section_a6fa9bf84c9ea2c3641a06bf633c3c538.html#a6fa9bf84c9ea2c3641a06bf633c3c538"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TSection"><param name="Local" value="classns_ini_file_1_1_t_section_af807d07837f9aa5e7ddacdf2ec18921b.html#af807d07837f9aa5e7ddacdf2ec18921b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_ini_file_1_1_t_section_a9a4a244adcf67c43fe209937e9c00b45.html#a9a4a244adcf67c43fe209937e9c00b45"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_ini_file_1_1_t_section_af2cbc1a09f25919a9c6fca1f849f9cd3.html#af2cbc1a09f25919a9c6fca1f849f9cd3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="comment"><param name="Local" value="classns_ini_file_1_1_t_section_a1960e7e22bf62d34d19ab0500bfcd628.html#a1960e7e22bf62d34d19ab0500bfcd628"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_ini_file_1_1_t_section_afaa8db2f7b27eb1a3322c894cc19f0fa.html#afaa8db2f7b27eb1a3322c894cc19f0fa"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_ini_file_1_1_t_section_aadeea8e087a128286c1b3a6d7c58481b.html#aadeea8e087a128286c1b3a6d7c58481b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="classns_ini_file_1_1_t_section_a339e92e93a6ea27d7b9941b4c573746a.html#a339e92e93a6ea27d7b9941b4c573746a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_ini_file_1_1_t_section_a4b5a2b6bf1d8527fb44361ad3dbc77f3.html#a4b5a2b6bf1d8527fb44361ad3dbc77f3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_ini_file_1_1_t_section_a1f14e7c6934e7dcca06e32f115cdb2ab.html#a1f14e7c6934e7dcca06e32f115cdb2ab"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_ini_file_1_1_t_section_a75ebf18be7097d233a5113e9cbe4425e.html#a75ebf18be7097d233a5113e9cbe4425e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_mParams"><param name="Local" value="classns_ini_file_1_1_t_section_a3372873ecc59320a3eed2a427848754b.html#a3372873ecc59320a3eed2a427848754b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strComment"><param name="Local" value="classns_ini_file_1_1_t_section_a531f8344821f46ae3d27e5cc9c1936fb.html#a531f8344821f46ae3d27e5cc9c1936fb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strName"><param name="Local" value="classns_ini_file_1_1_t_section_a41e0c1bfe47e1273a8070fb17e13b4bf.html#a41e0c1bfe47e1273a8070fb17e13b4bf"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TIniFile"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TIniFile"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a50ab986908cbb67533175d1e3687ac2c.html#a50ab986908cbb67533175d1e3687ac2c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="~TIniFile"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a497031a431442873dfcf474973baa69b.html#a497031a431442873dfcf474973baa69b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a686ab07c8356795a6ac1c9a0deeb9c87.html#a686ab07c8356795a6ac1c9a0deeb9c87"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="classns_ini_file_1_1_t_ini_file_aca8ccc234a7866fdbcd1e11d8ac7875b.html#aca8ccc234a7866fdbcd1e11d8ac7875b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="close"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a5b68cae9c65b0c62ad11c6eef3f81936.html#a5b68cae9c65b0c62ad11c6eef3f81936"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_ini_file_1_1_t_ini_file_ac8c27453e4c72e93e53e2d1f64914ebc.html#ac8c27453e4c72e93e53e2d1f64914ebc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="del"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a527d41506a7c75afab47967c06e335bc.html#a527d41506a7c75afab47967c06e335bc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="header"><param name="Local" value="classns_ini_file_1_1_t_ini_file_af9939d48df0d4e5b6afe0c008e291b8d.html#af9939d48df0d4e5b6afe0c008e291b8d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="loadFile"><param name="Local" value="classns_ini_file_1_1_t_ini_file_ac8ad28e1fbfa46b9526c92888aa88527.html#ac8ad28e1fbfa46b9526c92888aa88527"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="name"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a058822223321d90305454b2ce87b3909.html#a058822223321d90305454b2ce87b3909"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_ini_file_1_1_t_ini_file_ae69e70ac080e493bd1244efd369d23d2.html#ae69e70ac080e493bd1244efd369d23d2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="operator[]"><param name="Local" value="classns_ini_file_1_1_t_ini_file_abcc4e6604504449d59af5112c3f6bacf.html#abcc4e6604504449d59af5112c3f6bacf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="readLine"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a4302ae619496c22828a007df552f8d0b.html#a4302ae619496c22828a007df552f8d0b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="saveFile"><param name="Local" value="classns_ini_file_1_1_t_ini_file_ae2acad029a3e03c2a4fc6a2199e69575.html#ae2acad029a3e03c2a4fc6a2199e69575"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="size"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a4ae52df88ae79d16dd4bad99c4de4ec8.html#a4ae52df88ae79d16dd4bad99c4de4ec8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_mSections"><param name="Local" value="classns_ini_file_1_1_t_ini_file_ab4993fe3dc8724632864d75fd8e34af8.html#ab4993fe3dc8724632864d75fd8e34af8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strComments"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a08cd4b910ec6d3f72e1938c50b9acc80.html#a08cd4b910ec6d3f72e1938c50b9acc80"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strHeader"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a7102a06de511a969933d3a8c1d0a0a60.html#a7102a06de511a969933d3a8c1d0a0a60"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="m_strName"><param name="Local" value="classns_ini_file_1_1_t_ini_file_a4f7cafcbc9df7f390554bcabe9431797.html#a4f7cafcbc9df7f390554bcabe9431797"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Índice de clases"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Jerarquía de la clase"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::SFuzzyRule"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::SRuleAtom"><param name="Local" value="structns_fuzzy_1_1_s_rule_atom.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TExecData"><param name="Local" value="classns_fuzzy_1_1_t_exec_data.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyBase"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::SFuzzyFunction"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyExec"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyModel"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyModels"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_models.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyObjects"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_objects.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyRules"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzySet"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzySets"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_sets.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyVal"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TStdFuzzyFunctions"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyFunctions"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_functions.html"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsFuzzy::TFuzzyError"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsIniFile::TIniFile"><param name="Local" value="classns_ini_file_1_1_t_ini_file.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsIniFile::TParam"><param name="Local" value="classns_ini_file_1_1_t_param.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nsIniFile::TSection"><param name="Local" value="classns_ini_file_1_1_t_section.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Miembros de las clases"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Todo"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Funciones"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Archivos"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Lista de archivos"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="dev"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="prj"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="yaflengine"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="fuzzy"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fuzzy.cpp"><param name="Local" value="fuzzy_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fuzzy.hpp"><param name="Local" value="fuzzy_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzbase.cpp"><param name="Local" value="fzbase_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzbase.hpp"><param name="Local" value="fzbase_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzexecution.cpp"><param name="Local" value="fzexecution_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzexecution.hpp"><param name="Local" value="fzexecution_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzfunction.cpp"><param name="Local" value="fzfunction_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzfunction.hpp"><param name="Local" value="fzfunction_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzmodel.cpp"><param name="Local" value="fzmodel_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzmodel.hpp"><param name="Local" value="fzmodel_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzrules.cpp"><param name="Local" value="fzrules_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzrules.hpp"><param name="Local" value="fzrules_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzset.cpp"><param name="Local" value="fzset_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzset.hpp"><param name="Local" value="fzset_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzval.cpp"><param name="Local" value="fzval_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="fzval.hpp"><param name="Local" value="fzval_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ini_file"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ini_file.cpp"><param name="Local" value="ini__file_8cpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ini_file.hpp"><param name="Local" value="ini__file_8hpp_source.html"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Fuzzy Logic: Fichero Fuente D:/dev/prj/yaflengine/src/fuzzy/fzbase.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="fl.ico"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Fuzzy Logic
+   </div>
+   <div id="projectbrief">Librería compacta de lógica difusa</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5fc0168d11760b9445bd29fa15d9290f.html">dev</a></li><li class="navelem"><a class="el" href="dir_0aa87b007eef98ba79c6224f18b9f0d4.html">prj</a></li><li class="navelem"><a class="el" href="dir_2dd365a95c79dc827467258760fdd534.html">yaflengine</a></li><li class="navelem"><a class="el" href="dir_cef700b09bfd17b888ee761eabfccc88.html">src</a></li><li class="navelem"><a class="el" href="dir_085c912ccd85b305ed86906ef370ec76.html">fuzzy</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">fzbase.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;fzbase.hpp&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;locale&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span>nsFuzzy;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;std::map&lt;fzhndl, TFuzzyBase*&gt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d">TFuzzyBase::m_mObjects</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;fzhndl                        <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a7aeb63b16527adc3341bc86cff3ce6dd.html#a7aeb63b16527adc3341bc86cff3ce6dd">TFuzzyBase::m_fhLastHandle</a> = 0;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;fuzzvar                       <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a1e664ecfbed0db6d136585c8c384b0c8.html#a1e664ecfbed0db6d136585c8c384b0c8">TFuzzyBase::m_fvInvalid</a>    = 0xffffffff;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base.html">TFuzzyBase</a>                    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_af1bf7d2ef258f4b6781701193a635ef6.html#af1bf7d2ef258f4b6781701193a635ef6">TFuzzyBase::m_fbInvalid</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_base_a3dc43fa1679528a8627f7c3d6f2aefde.html#a3dc43fa1679528a8627f7c3d6f2aefde">   34</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a3dc43fa1679528a8627f7c3d6f2aefde.html#a3dc43fa1679528a8627f7c3d6f2aefde">TFuzzyBase::TFuzzyBase</a>(<span class="keywordtype">int</span> Tipo)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a09a918995a52cf891dca752cda6e4627.html#a09a918995a52cf891dca752cda6e4627">m_fzHandle</a> = ++<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a7aeb63b16527adc3341bc86cff3ce6dd.html#a7aeb63b16527adc3341bc86cff3ce6dd">m_fhLastHandle</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a11b3b7d41a8d21c0affb7c52eb0a0d45.html#a11b3b7d41a8d21c0affb7c52eb0a0d45">m_pParent</a>  = NULL;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81">m_iType</a>    = Tipo;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">m_strName</a>  = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d">m_mObjects</a>[<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a09a918995a52cf891dca752cda6e4627.html#a09a918995a52cf891dca752cda6e4627">m_fzHandle</a>] = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_base_ad7d637b1f93d308a21286db50efc4ad0.html#ad7d637b1f93d308a21286db50efc4ad0">   56</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_ad7d637b1f93d308a21286db50efc4ad0.html#ad7d637b1f93d308a21286db50efc4ad0">TFuzzyBase::~TFuzzyBase</a>()</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::map&lt;fzhndl, TFuzzyBase*&gt;::iterator found = <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d">m_mObjects</a>.find(<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a09a918995a52cf891dca752cda6e4627.html#a09a918995a52cf891dca752cda6e4627">m_fzHandle</a>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81">m_iType</a> = FL_ID_UNDEFINED;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">if</span>(found != <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d">m_mObjects</a>.end() &amp;&amp; found-&gt;second == <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d">m_mObjects</a>.erase(found);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_base_afd24dc334f4d2adb5e5da3185cb3f0a5.html#afd24dc334f4d2adb5e5da3185cb3f0a5">   71</a></span>&#160;std::string&amp; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_afd24dc334f4d2adb5e5da3185cb3f0a5.html#afd24dc334f4d2adb5e5da3185cb3f0a5">TFuzzyBase::toLower</a>(std::string&amp; strText)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    std::locale loc;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    std::string aux = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; strText.size(); ++i)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        aux += (tolower(strText[i], loc));</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    strText = aux;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">return</span> strText;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_base_adbb79473039a39a5fd53ef0dc89bbabb.html#adbb79473039a39a5fd53ef0dc89bbabb">   89</a></span>&#160;std::string&amp; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_adbb79473039a39a5fd53ef0dc89bbabb.html#adbb79473039a39a5fd53ef0dc89bbabb">TFuzzyBase::trim</a>(std::string&amp; strText)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">size_t</span> pos = strText.find_first_not_of(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">if</span>(pos != std::string::npos)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        strText = strText.substr(pos);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    pos = strText.size() - 1;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">while</span>(strText[pos] == <span class="charliteral">&#39; &#39;</span> &amp;&amp; pos != 0)</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        --pos;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span>(pos &gt;= 0)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        strText = strText.substr(0, pos + 1);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">return</span> strText;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">TFuzzyBase* TFuzzyBase::operator[](fzhndl fhHandle)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">{</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">    std::map&lt;fzhndl, TFuzzyBase*&gt;::iterator found = m_mObjects.find(fhHandle);</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">    return found == m_mObjects.end() ? NULL : found-&gt;second;</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">}*/</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_base_aa258a7dad251672acac5c4ac617485e7.html#aa258a7dad251672acac5c4ac617485e7">  129</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a6723b64849a17ea90b9d0347351c1d37.html#a6723b64849a17ea90b9d0347351c1d37">TFuzzyBase::name</a>(std::string strName)</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;{</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">m_strName</a> = strName;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_afd24dc334f4d2adb5e5da3185cb3f0a5.html#afd24dc334f4d2adb5e5da3185cb3f0a5">toLower</a>(<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_adbb79473039a39a5fd53ef0dc89bbabb.html#adbb79473039a39a5fd53ef0dc89bbabb">trim</a>(<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">m_strName</a>));</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_base_a843c104b01d88de840a4adbfe35aa339.html#a843c104b01d88de840a4adbfe35aa339">  146</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a843c104b01d88de840a4adbfe35aa339.html#a843c104b01d88de840a4adbfe35aa339">TFuzzyBase::operator==</a>(<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base.html">TFuzzyBase</a>&amp; cmp)</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;{</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span> == &amp;cmp ? <span class="keyword">true</span> : (<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81">m_iType</a> == cmp.<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81">m_iType</a> &amp;&amp; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">m_strName</a> == cmp.<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">m_strName</a>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;}</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
+<div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_base_a12312270b2b1a9396df02ba0594ff8dc.html#a12312270b2b1a9396df02ba0594ff8dc">  164</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a12312270b2b1a9396df02ba0594ff8dc.html#a12312270b2b1a9396df02ba0594ff8dc">TFuzzyBase::operator!=</a>(<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base.html">TFuzzyBase</a>&amp; cmp)</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span> == &amp;cmp ? <span class="keyword">false</span> : (<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81">m_iType</a> != cmp.<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81">m_iType</a> || <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">m_strName</a> != cmp.<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">m_strName</a>);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_objects_af9b304f7be9b84f6a9b95749dc0ac02e.html#af9b304f7be9b84f6a9b95749dc0ac02e">  183</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_objects_af9b304f7be9b84f6a9b95749dc0ac02e.html#af9b304f7be9b84f6a9b95749dc0ac02e">TFuzzyObjects::TFuzzyObjects</a>() : <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base.html">TFuzzyBase</a>(FL_ID_OBJS)</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;}</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_objects_a9988f79d67d5a4cc77fd1fb3402a848e.html#a9988f79d67d5a4cc77fd1fb3402a848e">  191</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_objects_a9988f79d67d5a4cc77fd1fb3402a848e.html#a9988f79d67d5a4cc77fd1fb3402a848e">TFuzzyObjects::~TFuzzyObjects</a>()</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;{</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;}</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_objects_a96335354b3807f4c7fe3abaacea14f31.html#a96335354b3807f4c7fe3abaacea14f31">  207</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_base.html">TFuzzyBase</a>&amp; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_objects_a96335354b3807f4c7fe3abaacea14f31.html#a96335354b3807f4c7fe3abaacea14f31">TFuzzyObjects::operator[]</a>(fzhndl fzId)</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;{</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    std::map&lt;fzhndl, TFuzzyBase*&gt;::iterator found = <a class="code" href="classns_fuzzy_1_1_t_fuzzy_objects_a0a26bda0472311576ff2be889f039952.html#a0a26bda0472311576ff2be889f039952">objects</a>().find(fzId);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">return</span> found == <a class="code" href="classns_fuzzy_1_1_t_fuzzy_objects_a0a26bda0472311576ff2be889f039952.html#a0a26bda0472311576ff2be889f039952">objects</a>().end() ? <a class="code" href="classns_fuzzy_1_1_t_fuzzy_base_a2febf669abe1f3f591831febd126e629.html#a2febf669abe1f3f591831febd126e629">invalidObject</a>() : *found-&gt;second;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_error_a7f479656bf7cbeaa366e84cb4f22800b.html#a7f479656bf7cbeaa366e84cb4f22800b">  231</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a7f479656bf7cbeaa366e84cb4f22800b.html#a7f479656bf7cbeaa366e84cb4f22800b">TFuzzyError::TFuzzyError</a>()</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;{</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe.html#af51eaa40a46642e909ad8693fbb285fe">m_uiError</a> = FL_INVALID_ERROR_CODE;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b">m_uiLine</a>  = 0;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd">m_strFile</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c.html#abd168f9f05e27dd9808a40258221422c">m_strWhat</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1.html#a8c727e6f9a8d59946d619047374e4df1">m_strWhy</a>  = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;}</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
+<div class="line"><a name="l00256"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_error_a98c275239529a8f94582d83bf57d573b.html#a98c275239529a8f94582d83bf57d573b">  256</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a7f479656bf7cbeaa366e84cb4f22800b.html#a7f479656bf7cbeaa366e84cb4f22800b">TFuzzyError::TFuzzyError</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* What, <span class="keywordtype">int</span> iError,</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> uiLine, <span class="keyword">const</span> <span class="keywordtype">char</span>* cFile)</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;{</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe.html#af51eaa40a46642e909ad8693fbb285fe">m_uiError</a> = iError;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b">m_uiLine</a>  = uiLine;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd">m_strFile</a> = std::string(cFile);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c.html#abd168f9f05e27dd9808a40258221422c">m_strWhat</a> = std::string(What);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1.html#a8c727e6f9a8d59946d619047374e4df1">m_strWhy</a>  = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;}</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
+<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_error_a711c13897f00c48d01a32b24f5fd044f.html#a711c13897f00c48d01a32b24f5fd044f">  282</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a7f479656bf7cbeaa366e84cb4f22800b.html#a7f479656bf7cbeaa366e84cb4f22800b">TFuzzyError::TFuzzyError</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* What, <span class="keyword">const</span> <span class="keywordtype">char</span>* Why,</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> uiLine, <span class="keyword">const</span> <span class="keywordtype">char</span>* cFile)</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;{</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe.html#af51eaa40a46642e909ad8693fbb285fe">m_uiError</a> = FL_UNDEFINED_ERROR_CODE;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b">m_uiLine</a>  = uiLine;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd">m_strFile</a> = std::string(cFile);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c.html#abd168f9f05e27dd9808a40258221422c">m_strWhat</a> = std::string(What);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1.html#a8c727e6f9a8d59946d619047374e4df1">m_strWhy</a>  = std::string(Why);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;}</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
+<div class="line"><a name="l00299"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_error_ad4aca73e67a567ba2bf1f9a1a25a777a.html#ad4aca73e67a567ba2bf1f9a1a25a777a">  299</a></span>&#160;<a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_ad4aca73e67a567ba2bf1f9a1a25a777a.html#ad4aca73e67a567ba2bf1f9a1a25a777a">TFuzzyError::~TFuzzyError</a>()</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;{</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe.html#af51eaa40a46642e909ad8693fbb285fe">m_uiError</a> = FL_INVALID_ERROR_CODE;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b">m_uiLine</a>  = 0;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd">m_strFile</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c.html#abd168f9f05e27dd9808a40258221422c">m_strWhat</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1.html#a8c727e6f9a8d59946d619047374e4df1">m_strWhy</a>  = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;}</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
+<div class="line"><a name="l00316"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_error_a0dfbb2220564147d1cee14b794481088.html#a0dfbb2220564147d1cee14b794481088">  316</a></span>&#160;std::string <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a0dfbb2220564147d1cee14b794481088.html#a0dfbb2220564147d1cee14b794481088">TFuzzyError::where</a>()</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;{</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    std::stringstream ss;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    ss &lt;&lt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd">m_strFile</a> &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b">m_uiLine</a>;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordflow">return</span> ss.str();</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;}</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="line" href="classns_fuzzy_1_1_t_fuzzy_error_af6270e8163a7ea2ba267710bce51aa65.html#af6270e8163a7ea2ba267710bce51aa65">  332</a></span>&#160;std::string <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_af6270e8163a7ea2ba267710bce51aa65.html#af6270e8163a7ea2ba267710bce51aa65">TFuzzyError::message</a>()</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;{</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    std::stringstream ss;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    ss &lt;&lt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd">m_strFile</a> &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b">m_uiLine</a> &lt;&lt; <span class="stringliteral">&quot;: (error &quot;</span> &lt;&lt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe.html#af51eaa40a46642e909ad8693fbb285fe">m_uiError</a> &lt;&lt; <span class="stringliteral">&quot;) &quot;</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;       &lt;&lt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c.html#abd168f9f05e27dd9808a40258221422c">m_strWhat</a> &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; <a class="code" href="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1.html#a8c727e6f9a8d59946d619047374e4df1">m_strWhy</a>;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordflow">return</span> ss.str();</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;}</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a2febf669abe1f3f591831febd126e629_html_a2febf669abe1f3f591831febd126e629"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a2febf669abe1f3f591831febd126e629.html#a2febf669abe1f3f591831febd126e629">nsFuzzy::TFuzzyBase::invalidObject</a></div><div class="ttdeci">static TFuzzyBase &amp; invalidObject()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00077">fzbase.hpp:77</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a7aeb63b16527adc3341bc86cff3ce6dd_html_a7aeb63b16527adc3341bc86cff3ce6dd"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a7aeb63b16527adc3341bc86cff3ce6dd.html#a7aeb63b16527adc3341bc86cff3ce6dd">nsFuzzy::TFuzzyBase::m_fhLastHandle</a></div><div class="ttdeci">static fzhndl m_fhLastHandle</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00033">fzbase.hpp:33</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_afd24dc334f4d2adb5e5da3185cb3f0a5_html_afd24dc334f4d2adb5e5da3185cb3f0a5"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_afd24dc334f4d2adb5e5da3185cb3f0a5.html#afd24dc334f4d2adb5e5da3185cb3f0a5">nsFuzzy::TFuzzyBase::toLower</a></div><div class="ttdeci">std::string &amp; toLower(std::string &amp;strRule)</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00071">fzbase.cpp:71</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_adbb79473039a39a5fd53ef0dc89bbabb_html_adbb79473039a39a5fd53ef0dc89bbabb"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_adbb79473039a39a5fd53ef0dc89bbabb.html#adbb79473039a39a5fd53ef0dc89bbabb">nsFuzzy::TFuzzyBase::trim</a></div><div class="ttdeci">std::string &amp; trim(std::string &amp;strRule)</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00089">fzbase.cpp:89</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_html"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base.html">nsFuzzy::TFuzzyBase</a></div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00022">fzbase.hpp:22</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2_html_aa530aed88b78bfe926b6528fc7d4c6f2"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2">nsFuzzy::TFuzzyBase::m_strName</a></div><div class="ttdeci">std::string m_strName</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00044">fzbase.hpp:44</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a843c104b01d88de840a4adbfe35aa339_html_a843c104b01d88de840a4adbfe35aa339"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a843c104b01d88de840a4adbfe35aa339.html#a843c104b01d88de840a4adbfe35aa339">nsFuzzy::TFuzzyBase::operator==</a></div><div class="ttdeci">virtual bool operator==(TFuzzyBase &amp;cmp)</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00146">fzbase.cpp:146</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81_html_a11a49bde93e13d123650e04f3226be81"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81">nsFuzzy::TFuzzyBase::m_iType</a></div><div class="ttdeci">int m_iType</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00040">fzbase.hpp:40</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_a7f479656bf7cbeaa366e84cb4f22800b_html_a7f479656bf7cbeaa366e84cb4f22800b"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_a7f479656bf7cbeaa366e84cb4f22800b.html#a7f479656bf7cbeaa366e84cb4f22800b">nsFuzzy::TFuzzyError::TFuzzyError</a></div><div class="ttdeci">TFuzzyError()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00231">fzbase.cpp:231</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a6723b64849a17ea90b9d0347351c1d37_html_a6723b64849a17ea90b9d0347351c1d37"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a6723b64849a17ea90b9d0347351c1d37.html#a6723b64849a17ea90b9d0347351c1d37">nsFuzzy::TFuzzyBase::name</a></div><div class="ttdeci">std::string name()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00085">fzbase.hpp:85</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_ad4aca73e67a567ba2bf1f9a1a25a777a_html_ad4aca73e67a567ba2bf1f9a1a25a777a"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_ad4aca73e67a567ba2bf1f9a1a25a777a.html#ad4aca73e67a567ba2bf1f9a1a25a777a">nsFuzzy::TFuzzyError::~TFuzzyError</a></div><div class="ttdeci">virtual ~TFuzzyError()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00299">fzbase.cpp:299</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_objects_a96335354b3807f4c7fe3abaacea14f31_html_a96335354b3807f4c7fe3abaacea14f31"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_objects_a96335354b3807f4c7fe3abaacea14f31.html#a96335354b3807f4c7fe3abaacea14f31">nsFuzzy::TFuzzyObjects::operator[]</a></div><div class="ttdeci">TFuzzyBase &amp; operator[](fzhndl fzId)</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00207">fzbase.cpp:207</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_ad7d637b1f93d308a21286db50efc4ad0_html_ad7d637b1f93d308a21286db50efc4ad0"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_ad7d637b1f93d308a21286db50efc4ad0.html#ad7d637b1f93d308a21286db50efc4ad0">nsFuzzy::TFuzzyBase::~TFuzzyBase</a></div><div class="ttdeci">virtual ~TFuzzyBase()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00056">fzbase.cpp:56</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1_html_a8c727e6f9a8d59946d619047374e4df1"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_a8c727e6f9a8d59946d619047374e4df1.html#a8c727e6f9a8d59946d619047374e4df1">nsFuzzy::TFuzzyError::m_strWhy</a></div><div class="ttdeci">std::string m_strWhy</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00210">fzbase.hpp:210</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe_html_af51eaa40a46642e909ad8693fbb285fe"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_af51eaa40a46642e909ad8693fbb285fe.html#af51eaa40a46642e909ad8693fbb285fe">nsFuzzy::TFuzzyError::m_uiError</a></div><div class="ttdeci">unsigned int m_uiError</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00212">fzbase.hpp:212</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a09a918995a52cf891dca752cda6e4627_html_a09a918995a52cf891dca752cda6e4627"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a09a918995a52cf891dca752cda6e4627.html#a09a918995a52cf891dca752cda6e4627">nsFuzzy::TFuzzyBase::m_fzHandle</a></div><div class="ttdeci">fzhndl m_fzHandle</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00038">fzbase.hpp:38</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_objects_a9988f79d67d5a4cc77fd1fb3402a848e_html_a9988f79d67d5a4cc77fd1fb3402a848e"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_objects_a9988f79d67d5a4cc77fd1fb3402a848e.html#a9988f79d67d5a4cc77fd1fb3402a848e">nsFuzzy::TFuzzyObjects::~TFuzzyObjects</a></div><div class="ttdeci">virtual ~TFuzzyObjects()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00191">fzbase.cpp:191</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a11b3b7d41a8d21c0affb7c52eb0a0d45_html_a11b3b7d41a8d21c0affb7c52eb0a0d45"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a11b3b7d41a8d21c0affb7c52eb0a0d45.html#a11b3b7d41a8d21c0affb7c52eb0a0d45">nsFuzzy::TFuzzyBase::m_pParent</a></div><div class="ttdeci">TFuzzyBase * m_pParent</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00036">fzbase.hpp:36</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_objects_af9b304f7be9b84f6a9b95749dc0ac02e_html_af9b304f7be9b84f6a9b95749dc0ac02e"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_objects_af9b304f7be9b84f6a9b95749dc0ac02e.html#af9b304f7be9b84f6a9b95749dc0ac02e">nsFuzzy::TFuzzyObjects::TFuzzyObjects</a></div><div class="ttdeci">TFuzzyObjects()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00183">fzbase.cpp:183</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b_html_ac7552fe4367778beff054767d796e05b"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b">nsFuzzy::TFuzzyError::m_uiLine</a></div><div class="ttdeci">unsigned int m_uiLine</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00204">fzbase.hpp:204</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c_html_abd168f9f05e27dd9808a40258221422c"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_abd168f9f05e27dd9808a40258221422c.html#abd168f9f05e27dd9808a40258221422c">nsFuzzy::TFuzzyError::m_strWhat</a></div><div class="ttdeci">std::string m_strWhat</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00208">fzbase.hpp:208</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a12312270b2b1a9396df02ba0594ff8dc_html_a12312270b2b1a9396df02ba0594ff8dc"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a12312270b2b1a9396df02ba0594ff8dc.html#a12312270b2b1a9396df02ba0594ff8dc">nsFuzzy::TFuzzyBase::operator!=</a></div><div class="ttdeci">virtual bool operator!=(TFuzzyBase &amp;cmp)</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00164">fzbase.cpp:164</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_af1bf7d2ef258f4b6781701193a635ef6_html_af1bf7d2ef258f4b6781701193a635ef6"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_af1bf7d2ef258f4b6781701193a635ef6.html#af1bf7d2ef258f4b6781701193a635ef6">nsFuzzy::TFuzzyBase::m_fbInvalid</a></div><div class="ttdeci">static TFuzzyBase m_fbInvalid</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00028">fzbase.hpp:28</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd_html_a85fbab694c3e0e379249beafc5adbacd"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_a85fbab694c3e0e379249beafc5adbacd.html#a85fbab694c3e0e379249beafc5adbacd">nsFuzzy::TFuzzyError::m_strFile</a></div><div class="ttdeci">std::string m_strFile</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00206">fzbase.hpp:206</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a1e664ecfbed0db6d136585c8c384b0c8_html_a1e664ecfbed0db6d136585c8c384b0c8"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a1e664ecfbed0db6d136585c8c384b0c8.html#a1e664ecfbed0db6d136585c8c384b0c8">nsFuzzy::TFuzzyBase::m_fvInvalid</a></div><div class="ttdeci">static fuzzvar m_fvInvalid</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00026">fzbase.hpp:26</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d_html_a358514e57799bb172efbb51dc731643d"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d">nsFuzzy::TFuzzyBase::m_mObjects</a></div><div class="ttdeci">static std::map&lt; fzhndl, TFuzzyBase * &gt; m_mObjects</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00031">fzbase.hpp:31</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_a0dfbb2220564147d1cee14b794481088_html_a0dfbb2220564147d1cee14b794481088"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_a0dfbb2220564147d1cee14b794481088.html#a0dfbb2220564147d1cee14b794481088">nsFuzzy::TFuzzyError::where</a></div><div class="ttdeci">std::string where()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00316">fzbase.cpp:316</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_base_a3dc43fa1679528a8627f7c3d6f2aefde_html_a3dc43fa1679528a8627f7c3d6f2aefde"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_base_a3dc43fa1679528a8627f7c3d6f2aefde.html#a3dc43fa1679528a8627f7c3d6f2aefde">nsFuzzy::TFuzzyBase::TFuzzyBase</a></div><div class="ttdeci">TFuzzyBase(int Tipo=FL_ID_UNDEFINED)</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00034">fzbase.cpp:34</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_objects_a0a26bda0472311576ff2be889f039952_html_a0a26bda0472311576ff2be889f039952"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_objects_a0a26bda0472311576ff2be889f039952.html#a0a26bda0472311576ff2be889f039952">nsFuzzy::TFuzzyObjects::objects</a></div><div class="ttdeci">std::map&lt; fzhndl, TFuzzyBase * &gt; &amp; objects()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8hpp_source.html#l00152">fzbase.hpp:152</a></div></div>
+<div class="ttc" id="classns_fuzzy_1_1_t_fuzzy_error_af6270e8163a7ea2ba267710bce51aa65_html_af6270e8163a7ea2ba267710bce51aa65"><div class="ttname"><a href="classns_fuzzy_1_1_t_fuzzy_error_af6270e8163a7ea2ba267710bce51aa65.html#af6270e8163a7ea2ba267710bce51aa65">nsFuzzy::TFuzzyError::message</a></div><div class="ttdeci">std::string message()</div><div class="ttdef"><b>Definition:</b> <a href="fzbase_8cpp_source.html#l00332">fzbase.cpp:332</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<hr class="footer"/><small>
+  <table width="90%" align="center" cellspacing="0" cellpadding="0"><tr>
+    <td align="right"><img class="footer" src="fl.ico" alt="Logo" width="32" height="32"/></td>
+    <td align="right" width="40%">
+      <table width="100%" align="center">
+        <tr><td><div id="footer">Fuzzy Logic</div></td></tr>
+        <tr><td><div id="footer">Librería compacta de lógica difusa</div></td></tr>
+  </tr></table>
+</small>
+</body></html>
