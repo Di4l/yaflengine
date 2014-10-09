@@ -1,0 +1,9 @@
+digraph "D:/dev/prj/fl_doc/src" {
+  compound=true
+  node [ fontsize="10", fontname="FreeSans.ttf"];
+  edge [ labelfontsize="10", labelfontname="FreeSans.ttf"];
+  subgraph clusterdir_185bcb5ab45bf8d6a21a4b5a28285f08 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fl_doc" fontname="FreeSans.ttf", fontsize="10", URL="dir_185bcb5ab45bf8d6a21a4b5a28285f08.html"]
+  dir_2bf09e585372b6ac34a8de83585c7912 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2bf09e585372b6ac34a8de83585c7912.html"];
+  }
+}
