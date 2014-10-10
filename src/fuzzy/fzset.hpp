@@ -1,3 +1,32 @@
+/*
+ * \file fzset.hpp
+ *
+ *  A Set groups related "concepts" (cold, warm, hot) called Values, and
+ *  defines a "characteristic" (temperature) in natural language ALWAYS within
+ *  a given context. It is not the same to define what warm is in the context
+ *  of stellar temperatures than in low temperature physics context.
+ *
+ *     Copyright (C) 2014  Raúl Hermoso Sánchez
+ *
+ *    This program is free software; you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation; either version 2 of the License, or
+ *    (at your option) any later version.
+ *
+ *    This program is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License along
+ *    with this program; if not, write to the Free Software Foundation, Inc.,
+ *    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ *
+ *    created: 02/03/207
+ *    author: Raúl Hermoso Sánchez
+ *    e-mail: raul.hermoso@gmail.com
+ */
 //-----------------------------------------------------------------------------
 #ifndef __FZSET_HPP__
 #define __FZSET_HPP__

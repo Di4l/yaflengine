@@ -26,3 +26,6 @@
 *.exe
 *.out
 *.app
+/src/RemoteSystemsTempFiles
+/src/.metadata
+/src/fuzzy/.settings
