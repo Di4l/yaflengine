@@ -23,7 +23,7 @@
  *    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  *
  *
- *    created: 02/03/207
+ *    created: 02/03/2007
  *    author: Raúl Hermoso Sánchez
  *    e-mail: raul.hermoso@gmail.com
  */
