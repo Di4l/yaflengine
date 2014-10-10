@@ -8,5 +8,4 @@ To compile using eclipse:
 3. Compile project ini_file and then fuzzy.
 
 NOTE:
-The file fuzzy.cpp is set to be ignored from project compilation. It was there to create a dynamic link library and fuzzy.cpp contains
-the exported functions. As of this date, it has been discontinued, but it may be added in future releases.
+The file fuzzy.cpp is set to be ignored from project compilation. It is there to generate a dynamic library from within the C++Builder compiler. I no longer use it, bu people may find it useful.
