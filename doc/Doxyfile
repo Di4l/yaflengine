@@ -81,7 +81,7 @@ CREATE_SUBDIRS         = NO
 # Turkish, Ukrainian and Vietnamese.
 # The default value is: English.
 
-OUTPUT_LANGUAGE        = English
+OUTPUT_LANGUAGE        = Spanish
 
 # If the BRIEF_MEMBER_DESC tag is set to YES doxygen will include brief member
 # descriptions after the members that are listed in the file and class
@@ -1241,7 +1241,7 @@ GENERATE_HTMLHELP      = NO
 # written to the html output directory.
 # This tag requires that the tag GENERATE_HTMLHELP is set to YES.
 
-CHM_FILE               = ../fuzzy_logic.chm
+CHM_FILE               = ../yaflengine.chm
 
 # The HHC_LOCATION tag can be used to specify the location (absolute path
 # including file name) of the HTML help compiler ( hhc.exe). If non-empty
