@@ -1,0 +1,25 @@
+var classns_fuzzy_1_1_t_fuzzy_base =
+[
+    [ "TFuzzyBase", "classns_fuzzy_1_1_t_fuzzy_base_a3dc43fa1679528a8627f7c3d6f2aefde.html#a3dc43fa1679528a8627f7c3d6f2aefde", null ],
+    [ "~TFuzzyBase", "classns_fuzzy_1_1_t_fuzzy_base_ad7d637b1f93d308a21286db50efc4ad0.html#ad7d637b1f93d308a21286db50efc4ad0", null ],
+    [ "handle", "classns_fuzzy_1_1_t_fuzzy_base_a54902ac6c53aeddacde3b0c4b89bb3f4.html#a54902ac6c53aeddacde3b0c4b89bb3f4", null ],
+    [ "invalidNumber", "classns_fuzzy_1_1_t_fuzzy_base_a5a4a5166b89a94f4bf2bfa8a9da7bce5.html#a5a4a5166b89a94f4bf2bfa8a9da7bce5", null ],
+    [ "invalidObject", "classns_fuzzy_1_1_t_fuzzy_base_a2febf669abe1f3f591831febd126e629.html#a2febf669abe1f3f591831febd126e629", null ],
+    [ "name", "classns_fuzzy_1_1_t_fuzzy_base_a6723b64849a17ea90b9d0347351c1d37.html#a6723b64849a17ea90b9d0347351c1d37", null ],
+    [ "name", "classns_fuzzy_1_1_t_fuzzy_base_aa258a7dad251672acac5c4ac617485e7.html#aa258a7dad251672acac5c4ac617485e7", null ],
+    [ "objects", "classns_fuzzy_1_1_t_fuzzy_base_aeaea5720e0cfa920e03a381bb6f660d3.html#aeaea5720e0cfa920e03a381bb6f660d3", null ],
+    [ "operator!=", "classns_fuzzy_1_1_t_fuzzy_base_a12312270b2b1a9396df02ba0594ff8dc.html#a12312270b2b1a9396df02ba0594ff8dc", null ],
+    [ "operator==", "classns_fuzzy_1_1_t_fuzzy_base_a843c104b01d88de840a4adbfe35aa339.html#a843c104b01d88de840a4adbfe35aa339", null ],
+    [ "parent", "classns_fuzzy_1_1_t_fuzzy_base_a0a310027a9291532a4eed4295afaec48.html#a0a310027a9291532a4eed4295afaec48", null ],
+    [ "toLower", "classns_fuzzy_1_1_t_fuzzy_base_afd24dc334f4d2adb5e5da3185cb3f0a5.html#afd24dc334f4d2adb5e5da3185cb3f0a5", null ],
+    [ "trim", "classns_fuzzy_1_1_t_fuzzy_base_adbb79473039a39a5fd53ef0dc89bbabb.html#adbb79473039a39a5fd53ef0dc89bbabb", null ],
+    [ "type", "classns_fuzzy_1_1_t_fuzzy_base_a18a180d50b40cd23c7b867fb7e0a2f29.html#a18a180d50b40cd23c7b867fb7e0a2f29", null ],
+    [ "m_fbInvalid", "classns_fuzzy_1_1_t_fuzzy_base_af1bf7d2ef258f4b6781701193a635ef6.html#af1bf7d2ef258f4b6781701193a635ef6", null ],
+    [ "m_fhLastHandle", "classns_fuzzy_1_1_t_fuzzy_base_a7aeb63b16527adc3341bc86cff3ce6dd.html#a7aeb63b16527adc3341bc86cff3ce6dd", null ],
+    [ "m_fvInvalid", "classns_fuzzy_1_1_t_fuzzy_base_a1e664ecfbed0db6d136585c8c384b0c8.html#a1e664ecfbed0db6d136585c8c384b0c8", null ],
+    [ "m_fzHandle", "classns_fuzzy_1_1_t_fuzzy_base_a09a918995a52cf891dca752cda6e4627.html#a09a918995a52cf891dca752cda6e4627", null ],
+    [ "m_iType", "classns_fuzzy_1_1_t_fuzzy_base_a11a49bde93e13d123650e04f3226be81.html#a11a49bde93e13d123650e04f3226be81", null ],
+    [ "m_mObjects", "classns_fuzzy_1_1_t_fuzzy_base_a358514e57799bb172efbb51dc731643d.html#a358514e57799bb172efbb51dc731643d", null ],
+    [ "m_pParent", "classns_fuzzy_1_1_t_fuzzy_base_a11b3b7d41a8d21c0affb7c52eb0a0d45.html#a11b3b7d41a8d21c0affb7c52eb0a0d45", null ],
+    [ "m_strName", "classns_fuzzy_1_1_t_fuzzy_base_aa530aed88b78bfe926b6528fc7d4c6f2.html#aa530aed88b78bfe926b6528fc7d4c6f2", null ]
+];

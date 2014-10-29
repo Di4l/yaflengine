@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Yaflengine: Referencia del Archivo src/fuzzy/fuzzy.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="fl.ico"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Yaflengine
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Yet another Fuzzy Logic Engine</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('fuzzy_8hpp.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>&apos;typedefs&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>&apos;defines&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">'defines'</a> &#124;
+<a href="#typedef-members">'typedefs'</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo fuzzy.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;map&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Dependencia gráfica adjunta para fuzzy.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="fuzzy_8hpp__incl.png" border="0" usemap="#src_2fuzzy_2fuzzy_8hpp" alt=""/></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo:</div>
+<div class="dyncontent">
+<div class="center"><img src="fuzzy_8hpp__dep__incl.png" border="0" usemap="#src_2fuzzy_2fuzzy_8hppdep" alt=""/></div>
+<map name="src_2fuzzy_2fuzzy_8hppdep" id="src_2fuzzy_2fuzzy_8hppdep">
+<area shape="rect" id="node2" href="fzbase_8hpp.html" title="src/fuzzy/fzbase.hpp" alt="" coords="5,80,147,107"/></map>
+</div>
+</div>
+<p><a href="fuzzy_8hpp_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+'defines'</h2></td></tr>
+<tr class="memitem:a42ad278ce56e5790ab542ea3cb8f75e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42ad278ce56e5790ab542ea3cb8f75e9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DCAST</b>(x, y)&#160;&#160;&#160;(x)y</td></tr>
+<tr class="separator:a42ad278ce56e5790ab542ea3cb8f75e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4146fe39b9fb50c876e4c70f31264720"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_a4146fe39b9fb50c876e4c70f31264720.html#a4146fe39b9fb50c876e4c70f31264720">FL_INVALID_HANDLE</a>&#160;&#160;&#160;0x80000000</td></tr>
+<tr class="separator:a4146fe39b9fb50c876e4c70f31264720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b215cdc48b77d279ec5fe8b0372ac33"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_a5b215cdc48b77d279ec5fe8b0372ac33.html#a5b215cdc48b77d279ec5fe8b0372ac33">FL_ID_UNDEFINED</a>&#160;&#160;&#160;0x7FFFFFFF</td></tr>
+<tr class="separator:a5b215cdc48b77d279ec5fe8b0372ac33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b96ad8dc1eaaf81e30bd9560b9e480"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_ad8b96ad8dc1eaaf81e30bd9560b9e480.html#ad8b96ad8dc1eaaf81e30bd9560b9e480">FL_ID_OBJS</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:ad8b96ad8dc1eaaf81e30bd9560b9e480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf683ed8a2c228e34f8e80b8307745c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_acf683ed8a2c228e34f8e80b8307745c7.html#acf683ed8a2c228e34f8e80b8307745c7">FL_ID_FUN</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:acf683ed8a2c228e34f8e80b8307745c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc33cfe2e7aa5267c29bc2af3e51d69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_a0fc33cfe2e7aa5267c29bc2af3e51d69.html#a0fc33cfe2e7aa5267c29bc2af3e51d69">FL_ID_FUNS</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:a0fc33cfe2e7aa5267c29bc2af3e51d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1ff5d30b4d9323fc65c8ca7a958c15"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_a2c1ff5d30b4d9323fc65c8ca7a958c15.html#a2c1ff5d30b4d9323fc65c8ca7a958c15">FL_ID_VAL</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a2c1ff5d30b4d9323fc65c8ca7a958c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af80616a05a535d3ee1a46171110a3d62"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_af80616a05a535d3ee1a46171110a3d62.html#af80616a05a535d3ee1a46171110a3d62">FL_ID_SET</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:af80616a05a535d3ee1a46171110a3d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cabe1a7213437d254094a52d9b77c6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_a5cabe1a7213437d254094a52d9b77c6b.html#a5cabe1a7213437d254094a52d9b77c6b">FL_ID_SETS</a>&#160;&#160;&#160;0x06</td></tr>
+<tr class="separator:a5cabe1a7213437d254094a52d9b77c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc732b0c125aab4135c9c7a0e1564bff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_afc732b0c125aab4135c9c7a0e1564bff.html#afc732b0c125aab4135c9c7a0e1564bff">FL_ID_RUL</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="separator:afc732b0c125aab4135c9c7a0e1564bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee9f5fb08c4e8a1da76073b0483a674"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_a6ee9f5fb08c4e8a1da76073b0483a674.html#a6ee9f5fb08c4e8a1da76073b0483a674">FL_ID_MOD_TREE</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:a6ee9f5fb08c4e8a1da76073b0483a674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1af758c90350bcd6cebd2ffdd896fa7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_af1af758c90350bcd6cebd2ffdd896fa7.html#af1af758c90350bcd6cebd2ffdd896fa7">FL_ID_MOD</a>&#160;&#160;&#160;0x09</td></tr>
+<tr class="separator:af1af758c90350bcd6cebd2ffdd896fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558ca3cc49923b00764b7325e4b0920e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_a558ca3cc49923b00764b7325e4b0920e.html#a558ca3cc49923b00764b7325e4b0920e">FL_ID_MODS</a>&#160;&#160;&#160;0x0A</td></tr>
+<tr class="separator:a558ca3cc49923b00764b7325e4b0920e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d1f290a790889842466320d7afe681"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_ad2d1f290a790889842466320d7afe681.html#ad2d1f290a790889842466320d7afe681">FL_ID_EXEC</a>&#160;&#160;&#160;0x0B</td></tr>
+<tr class="separator:ad2d1f290a790889842466320d7afe681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+'typedefs'</h2></td></tr>
+<tr class="memitem:aa64f6a797444d237fb1e67843ebf2bbf"><td class="memItemLeft" align="right" valign="top">typedef float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_aa64f6a797444d237fb1e67843ebf2bbf.html#aa64f6a797444d237fb1e67843ebf2bbf">fuzzvar</a></td></tr>
+<tr class="separator:aa64f6a797444d237fb1e67843ebf2bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac10fe6396457761bf0aad1a4fcbe68a9"><td class="memItemLeft" align="right" valign="top">typedef unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_ac10fe6396457761bf0aad1a4fcbe68a9.html#ac10fe6396457761bf0aad1a4fcbe68a9">fzhndl</a></td></tr>
+<tr class="separator:ac10fe6396457761bf0aad1a4fcbe68a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89f1efb5ff4c6937fb9d058fcf62156"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="fuzzy_8hpp_aa64f6a797444d237fb1e67843ebf2bbf.html#aa64f6a797444d237fb1e67843ebf2bbf">fuzzvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_aa89f1efb5ff4c6937fb9d058fcf62156.html#aa89f1efb5ff4c6937fb9d058fcf62156">fuzzlist</a></td></tr>
+<tr class="separator:aa89f1efb5ff4c6937fb9d058fcf62156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad004b22f71c953cbb15dcb0c0d43e866"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="fuzzy_8hpp_ac10fe6396457761bf0aad1a4fcbe68a9.html#ac10fe6396457761bf0aad1a4fcbe68a9">fzhndl</a>, <a class="el" href="fuzzy_8hpp_aa64f6a797444d237fb1e67843ebf2bbf.html#aa64f6a797444d237fb1e67843ebf2bbf">fuzzvar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_ad004b22f71c953cbb15dcb0c0d43e866.html#ad004b22f71c953cbb15dcb0c0d43e866">fuzzmap</a></td></tr>
+<tr class="separator:ad004b22f71c953cbb15dcb0c0d43e866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac28e2f2f17c231043b8414beebf59c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="fuzzy_8hpp_aa64f6a797444d237fb1e67843ebf2bbf.html#aa64f6a797444d237fb1e67843ebf2bbf">fuzzvar</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuzzy_8hpp_aeac28e2f2f17c231043b8414beebf59c.html#aeac28e2f2f17c231043b8414beebf59c">FFuzzyFunction</a> )(<a class="el" href="fuzzy_8hpp_aa89f1efb5ff4c6937fb9d058fcf62156.html#aa89f1efb5ff4c6937fb9d058fcf62156">fuzzlist</a> &amp;, <a class="el" href="fuzzy_8hpp_aa64f6a797444d237fb1e67843ebf2bbf.html#aa64f6a797444d237fb1e67843ebf2bbf">fuzzvar</a>)</td></tr>
+<tr class="separator:aeac28e2f2f17c231043b8414beebf59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Main project include file.</p>
+<p>This files includes general definitions for the fuzzy framework that shall be used throughout the project. </p>
+
+<p>Definición en el archivo <a class="el" href="fuzzy_8hpp_source.html">fuzzy.hpp</a>.</p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<hr class="footer"/><small>
+  <table width="98%" align="center" cellspacing="0" cellpadding="0"><tr>
+    <td align="right"><img class="footer" src="fl.ico" alt="Logo" width="48" height="48"/></td>
+    <td align="right" width="15%">
+      <table width="100%">
+        <tr><td><div id="footer"><font size="4px">Yaflengine</font></div></td></tr>
+        <tr><td><div id="footer"><font size="2px">Yet another Fuzzy Logic Engine</font></div></td></tr>
+      </table>
+    </td>
+  </tr></table>
+</small>
+</body></html>
