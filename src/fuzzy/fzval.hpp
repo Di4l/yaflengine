@@ -2,7 +2,9 @@
  * \file fzval.hpp
  *
  *  A Value defines a set's adjective (warm, cold, hot, melting).
- *
+ */
+
+/*
  *     Copyright (C) 2014  Ra˙l Hermoso S·nchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -38,7 +40,7 @@ namespace nsFuzzy
 	//-------------------------------------------------------------------------
 
 	/**
-	 * Esta clase personaliza una funci√≥n en l√≥gica difusa para luego usarla
+	 * Esta clase personaliza una funciÛn en lÛgica difusa para luego usarla
 	 * en un set.
 	 *
 	 * \sa TFuzzySet
@@ -49,16 +51,16 @@ namespace nsFuzzy
 		/** Lista de todas funciones registradas */
 		static TFuzzyFunctions m_ffFunctions;
 
-		/** Punto donde la funci√≥n es m√°xima */
+		/** Punto donde la funciÛn es m·xima */
 		fuzzvar              m_fvMaxF;
-		/** Lista de par√°metros */
+		/** Lista de par·metros */
 		std::vector<fuzzvar> m_vParams;
-        /** Funci√≥n de grado de verdad */
+        /** FunciÛn de grado de verdad */
         fzhndl               m_ffId;
 
-        /** Ejecuta la funci√≥n */
+        /** Ejecuta la funciÛn */
         fuzzvar exeFunction(fuzzvar x);
-        /** Calcula el punto donde la funci√≥n es m√°xima */
+        /** Calcula el punto donde la funciÛn es m·xima */
         fuzzvar calcMaxFunc();
 
 	protected:
@@ -68,36 +70,36 @@ namespace nsFuzzy
 		/** Destructor de la clase */
 		virtual ~TFuzzyVal();
 
-		/** N√∫mero de par√°metros */
+		/** N˙mero de par·metros */
 		inline size_t        size() { return m_vParams.size() > 1 ? m_vParams.size() - 2 : 0; }
-		/** Valor m√≠nimo sobre el que aplicar la funci√≥n */
+		/** Valor mÌnimo sobre el que aplicar la funciÛn */
 		inline fuzzvar       min()  { return m_vParams.size() > 0 ? m_vParams[0] : 0.0; }
-		/** Valor m√°ximo sobre el que aplicar la funci√≥n */
+		/** Valor m·ximo sobre el que aplicar la funciÛn */
 		inline fuzzvar       max()  { return m_vParams.size() > 1 ? m_vParams[1] : 0.0; }
-		/** Devuelve el valor x donde la funci√≥n es m√°xima */
+		/** Devuelve el valor x donde la funciÛn es m·xima */
 		inline fuzzvar       maxF() { return m_fvMaxF; }
 
-		/** Asigna el n√∫mero de par√°metros */
+		/** Asigna el n˙mero de par·metros */
 		void size(size_t szCount);
-		/** Asigna el valor m√≠nimo sobre el que aplicar la funci√≥n */
+		/** Asigna el valor mÌnimo sobre el que aplicar la funciÛn */
 		void min(fuzzvar fvMin);
-		/** Asigna el valor m√°ximo sobre el que aplicar la funci√≥n */
+		/** Asigna el valor m·ximo sobre el que aplicar la funciÛn */
 		void max(fuzzvar fvMax);
-		/** Asigna el valor del par√°metro en la posici√≥n indicada */
+		/** Asigna el valor del par·metro en la posiciÛn indicada */
 		void set(int iIndex, fuzzvar Value);
 
 		/** Devuelve la lista de funciones registradas para uso de la clase */
 		inline TFuzzyFunctions& functions() { return m_ffFunctions;         }
-		/** Devuelve la funci√≥n a la que est√° asociada este valor */
+		/** Devuelve la funciÛn a la que est· asociada este valor */
 		inline SFuzzyFunction* function()   { return m_ffFunctions[m_ffId]; }
-		/** Asigna una funci√≥n para el grado de verdad a este valor */
+		/** Asigna una funciÛn para el grado de verdad a este valor */
 		fzhndl setFunction(std::string strName);
-		/** Asigna una funci√≥n para el grado de verdad a este valor */
+		/** Asigna una funciÛn para el grado de verdad a este valor */
 		std::string setFunction(fzhndl ffId);
 
-		/** Calcula el resultado de la funci√≥n de grado de verdad */
+		/** Calcula el resultado de la funciÛn de grado de verdad */
 		inline fuzzvar execute(fuzzvar fvX) { return exeFunction(fvX); }
-		/** Devuelve el par√°metro en la posici√≥n especificada */
+		/** Devuelve el par·metro en la posiciÛn especificada */
 		fuzzvar& operator[](int iIndex);
 	};
 	//-------------------------------------------------------------------------

@@ -2,8 +2,9 @@
  * \file fzbase.hpp
  *
  *  Base class declaration
- *
- *     Copyright (C) 2014  Raúl Hermoso Sánchez
+ */
+
+/*     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by
@@ -37,29 +38,29 @@
 
 /**
  * Nombre de espacio para todas las clases, estructuras, tipos relacionados
- * con la librerÃ­a de lÃ³gica difusa
+ * con la librería de lógica difusa
  */
 namespace nsFuzzy
 {
 	//-------------------------------------------------------------------------
 
 	/**
-	 *  Clase base de la librerÃ­a fuzzy. Todas las demÃ¡s clases heredan de esta.
+	 *  Clase base de la librería fuzzy. Todas las demás clases heredan de esta.
 	 */
 	class TFuzzyBase
     {
     private:
-		/** NÃºmero invÃ¡lido */
+		/** Número inválido */
 		static fuzzvar m_fvInvalid;
-		/** Objeto invÃ¡lido */
+		/** Objeto inválido */
         static TFuzzyBase m_fbInvalid;
 
 		/** Lista de objetos "fuzzy" creados */
         static std::map<fzhndl, TFuzzyBase*> m_mObjects;
-        /** Ãšltimo descriptor asignado a un objeto registrado */
+        /** Último descriptor asignado a un objeto registrado */
         static fzhndl                        m_fhLastHandle;
 
-		/** Objeto padre de Ã©ste */
+		/** Objeto padre de éste */
 		TFuzzyBase* m_pParent;
         /** Descriptor de este objeto */
         fzhndl m_fzHandle;
@@ -80,7 +81,7 @@ namespace nsFuzzy
          */
         inline std::map<fzhndl, TFuzzyBase*>& objects() { return m_mObjects; }
 
-        /** Convierte una cadena de texto a minÃºsculas */
+        /** Convierte una cadena de texto a minúsculas */
 		std::string& toLower(std::string& strRule);
 		/** Elimina los espacios al principio y fin de una cadena */
 		std::string& trim(std::string& strRule);
@@ -94,11 +95,11 @@ namespace nsFuzzy
         /** Destructor de un objeto "fuzzy" */
         virtual ~TFuzzyBase();
 
-        /** Devuelve un nÃºmero que representa un invÃ¡lido
+        /** Devuelve un número que representa un inválido
          *
          */
         static inline fuzzvar&    invalidNumber() { m_fvInvalid = 0xffffffff; return m_fvInvalid; }
-        /** Devuelve un objeto que representa un valor invÃ¡lido
+        /** Devuelve un objeto que representa un valor inválido
          *
          */
         static inline TFuzzyBase& invalidObject() { return m_fbInvalid; }
@@ -112,16 +113,16 @@ namespace nsFuzzy
         inline std::string name() { return m_strName; }
         /** Devuelve el objeto padre de esta instancia, en caso de existir
          *
-         * Muchos de los objetos en esta librerÃ­a estÃ¡n organizados
-         * jerÃ¡rquicamente. AsÃ­ por ejemplo, un TFuzzySet contiene una serie de
+         * Muchos de los objetos en esta librería están organizados
+         * jerárquicamente. Así por ejemplo, un TFuzzySet contiene una serie de
          * TFuzzyVal.
          *
-         * parent() devuelve un puntero al objeto padre en la jerarquÃ­a. En
-         * caso de no existir dicho padre, retornarÃ¡ NULL. Esto puede ocurrir
-         * bien porque no existe jerarquÃ­a para el tipo de objeto en cuestiÃ³n o
-         * porque es el objeto padre primero en su jerarquÃ­a.
+         * parent() devuelve un puntero al objeto padre en la jerarquía. En
+         * caso de no existir dicho padre, retornará NULL. Esto puede ocurrir
+         * bien porque no existe jerarquía para el tipo de objeto en cuestión o
+         * porque es el objeto padre primero en su jerarquía.
          *
-         * \return Puntero al objeto padre en la jerarquÃ­a. NULL en caso de
+         * \return Puntero al objeto padre en la jerarquía. NULL en caso de
          * tener padre.
          * \sa m_pParent
          */
@@ -129,7 +130,7 @@ namespace nsFuzzy
         /** Devuelve el descriptor del objeto instanciado
          *
          * A todos los objetos de tipo "TFuzzyBase" y heredados se les asigna
-         * un descriptor Ãºnico que sirve para identificarlos. Este mÃ©todo
+         * un descriptor único que sirve para identificarlos. Este método
          * permite obtener el descriptor del objeto instanciado.
          *
          * \return Descriptor del objeto.
@@ -138,8 +139,8 @@ namespace nsFuzzy
         inline fzhndl handle() { return m_fzHandle; }
         /** Devuleve el tipo de objeto fuzzy que es.
          *
-         * Los objetos "fuzzy" se dividen en varios tipos o categorÃ­as. Este
-         * mÃ©todo retorna dicho tipo.
+         * Los objetos "fuzzy" se dividen en varios tipos o categorías. Este
+         * método retorna dicho tipo.
          *
          * \return Tipo de objeto "fuzzy"
          */
@@ -168,10 +169,10 @@ namespace nsFuzzy
 		/** Destrcutor de la clase */
 		virtual ~TFuzzyObjects();
 
-		/** Hace pÃºblica la lista de objetos registrados en el sistema
+		/** Hace pública la lista de objetos registrados en el sistema
 		 *
-		 *  Con este mÃ©todo se accede a la lista de objetos registrados en la
-		 *  librerÃ­a.
+		 *  Con este método se accede a la lista de objetos registrados en la
+		 *  librería.
 		 *
 		 *  \return lista de objetos registrados en el sistema
 		 *  \sa TFuzzyBase::objects()
@@ -183,66 +184,66 @@ namespace nsFuzzy
 	};
 	//-------------------------------------------------------------------------
 
-	/** CÃ³digo de error invÃ¡lido */
+	/** Código de error inválido */
 	#define FL_INVALID_ERROR_CODE		0x80000000
-	/** CÃ³digo de error no definido */
+	/** Código de error no definido */
 	#define FL_UNDEFINED_ERROR_CODE		0x40000000
 	/**
-	 * Clase de manejo de excepciones de lÃ³gica difusa.
+	 * Clase de manejo de excepciones de lógica difusa.
 	 *
-	 * Esta clase se usa para la propagaciÃ³n de excpeciones de la librerÃ­a. La
-	 * filosofÃ­a de la excepciÃ³n es almacenar tres parÃ¡metros bÃ¡sicos para
-	 * cualquier excepciÃ³n, a saber;
+	 * Esta clase se usa para la propagación de excpeciones de la librería. La
+	 * filosofía de la excepción es almacenar tres parámetros básicos para
+	 * cualquier excepción, a saber;
 	 *
-	 * \li QuÃ© produjo el error
-	 * \li Por quÃ© se produjo el error
-	 * \li DÃ³nde se produjo el error
+	 * \li Qué produjo el error
+	 * \li Por qué se produjo el error
+	 * \li Dónde se produjo el error
 	 *
-	 * QuÃ© produjo el error (m_strWhat) es una cadena de texto que debe ser
+	 * Qué produjo el error (m_strWhat) es una cadena de texto que debe ser
 	 * rellenada por el programador en cada caso. Esta variable puede accederse
-	 * mediante el mÃ©todo what().
+	 * mediante el método what().
 	 *
-	 * Por quÃ© se produjo el error se almacena en un cÃ³digo numÃ©rico
-	 * (m_uiError). Estos cÃ³digos numÃ©ricos y su correspondiente descripciÃ³n
-	 * estÃ¡n definidos en el archivo fzerrors.hpp. El mÃ©todo error() devuelve
-	 * el cÃ³digo de error y why() el texto asociado.
+	 * Por qué se produjo el error se almacena en un código numérico
+	 * (m_uiError). Estos códigos numéricos y su correspondiente descripción
+	 * están definidos en el archivo fzerrors.hpp. El método error() devuelve
+	 * el código de error y why() el texto asociado.
 	 *
-	 * \note TFuzzyError almacena cualquier cÃ³digo de error que se le pase como
-	 * parÃ¡metro, los propios de la librerÃ­a y los del sistema.
+	 * \note TFuzzyError almacena cualquier código de error que se le pase como
+	 * parámetro, los propios de la librería y los del sistema.
 	 *
-	 * DÃ³nde se produjo el error se almacena mediante dos variables: m_strFile
-	 * guarda el nombre del archivo y m_uiLine el nÃºmero de lÃ­nea dentro del
+	 * Dónde se produjo el error se almacena mediante dos variables: m_strFile
+	 * guarda el nombre del archivo y m_uiLine el número de línea dentro del
 	 * archivo donde se produjo el error. Estos dos valores deben ser
-	 * proporcionados por el programador a la hora de lanzar una excepciÃ³n. Se
-	 * recomienda el uso de las directivas __FILE__ y __LINE__. Los mÃ©todos
-	 * file() y line() devuelven el valor de estas variables. El mÃ©todo where()
-	 * devuelve ambas variables representadas en una lÃ­nea de texto con el
+	 * proporcionados por el programador a la hora de lanzar una excepción. Se
+	 * recomienda el uso de las directivas __FILE__ y __LINE__. Los métodos
+	 * file() y line() devuelven el valor de estas variables. El método where()
+	 * devuelve ambas variables representadas en una línea de texto con el
 	 * formato file:line.
 	 *
-	 * Para finalizar, el mÃ©todo message() coloca en una cadena de texto toda
-	 * la informaciÃ³n disponible sobre la excepciÃ³n: quÃ©, dÃ³nde y por quÃ©.
+	 * Para finalizar, el método message() coloca en una cadena de texto toda
+	 * la información disponible sobre la excepción: qué, dónde y por qué.
 	 *
 	 * \sa what(), where(), why(), file(), line(), error()
 	 */
 	class TFuzzyError
 	{
 	private:
-		/** LÃ­nea del cÃ³digo donde se produjo el error */
+		/** Línea del código donde se produjo el error */
 		unsigned int m_uiLine;
 		/** Nombre del archivo fuente donde se produjo el error */
 		std::string  m_strFile;
-		/** QuÃ© produjo el error */
+		/** Qué produjo el error */
 		std::string  m_strWhat;
-		/** Por quÃ© se produjo el error */
+		/** Por qué se produjo el error */
 		std::string  m_strWhy;
-		/** CÃ³digo de error */
+		/** Código de error */
 		unsigned int m_uiError;
 
 	protected:
 	public:
-		/** Constructor bÃ¡sico */
+		/** Constructor básico */
 		TFuzzyError();
-		/** Constructor con cÃ³digo de error */
+		/** Constructor con código de error */
 		TFuzzyError(const char* What, int iError,
 						unsigned int uiLine, const char* cFile);
 		/** Constructor con mensaje en formato texto */
@@ -251,22 +252,22 @@ namespace nsFuzzy
 		/** Destructor de la clase */
 		virtual ~TFuzzyError();
 
-		/** Devuelve el cÃ³digo de error producido. \sa m_uiError */
+		/** Devuelve el código de error producido. \sa m_uiError */
 		inline unsigned int error() { return m_uiError; }
-		/** Devuelve el 'quÃ©' produjo el error. \sa m_strWhat*/
+		/** Devuelve el 'qué' produjo el error. \sa m_strWhat*/
 		inline std::string  what()  { return m_strWhat; }
-		/** Devuelve el 'por quÃ©' produjo el error. \sa m_strWhy */
+		/** Devuelve el 'por qué' produjo el error. \sa m_strWhy */
 		inline std::string  why()   { return m_strWhy;  }
 		/** Devuelve el nombre del archivo donde se produjo el error.
 		 * \sa m_strFile, line(), where() */
 		inline std::string  file()  { return m_strFile; }
-		/** Devuelve el nÃºmero de lÃ­nea en el archivo donde se produjo el error.
+		/** Devuelve el número de línea en el archivo donde se produjo el error.
 		 * \sa m_uiLine, file(), where() */
 		inline unsigned int line()  { return m_uiLine;  }
 
-		/** Devuelve en una cadena de texto 'dÃ³nde' se produjo el error. */
+		/** Devuelve en una cadena de texto 'dónde' se produjo el error. */
 		std::string where();
-		/** Devuelve una cadena de texto con toda la informaciÃ³n completa del
+		/** Devuelve una cadena de texto con toda la información completa del
 		 * error. */
 		std::string message();
 	};

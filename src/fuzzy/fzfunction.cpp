@@ -4,7 +4,9 @@
  *  Defines a function later to be used as the curve for a value in a set.
  *  This creates a repository of functions where values can share the
  *  mathematical evaluation function.
- *
+ */
+
+/*
  *     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -39,7 +41,7 @@ using namespace nsFuzzy;
 //-----------------------------------------------------------------------------
 
 /**
- * Inicializa la informaciÃ³n de una funciÃ³n.
+ * Inicializa la información de una función.
  *
  * \return Nada
  * \sa ~SFuzzyFunction()
@@ -67,17 +69,17 @@ SFuzzyFunction::~SFuzzyFunction()
 
 /**
  * Las funciones de grado de verdad dentro del sistema pueden accederse a
- * travÃ©s de su descriptor o de su nombre. Esto Ãºltimo requiere que el nombre
- * de cada funciÃ³n dentro del sistema sea Ãºnico.
+ * través de su descriptor o de su nombre. Esto último requiere que el nombre
+ * de cada función dentro del sistema sea único.
  *
- * Con esta filosofÃ­a, pueden darse los siguientes dos casos a tener en cuenta:
+ * Con esta filosofía, pueden darse los siguientes dos casos a tener en cuenta:
  *
- * \li Que dos o mÃ¡s funciones con nombre diferente apunten a la misma funciÃ³n.
- * Esto estÃ¡ permitido. Puede verse este caso como que los diferentes nombres
- * son alias de una misma funciÃ³n.
- * \li Que dos o mÃ¡s funciones con el mismo nombre apunten a diferentes
- * funciones. Esto NO estÃ¡ permitido. En el sistema queda registrada la primera
- * funciÃ³n que se haya registrado. Las demÃ¡s serÃ¡n ignoradas.
+ * \li Que dos o más funciones con nombre diferente apunten a la misma función.
+ * Esto está permitido. Puede verse este caso como que los diferentes nombres
+ * son alias de una misma función.
+ * \li Que dos o más funciones con el mismo nombre apunten a diferentes
+ * funciones. Esto NO está permitido. En el sistema queda registrada la primera
+ * función que se haya registrado. Las demás serán ignoradas.
  *
  * \return true si el Nombre de las funciones coincide. false en cualquier otro
  * caso.
@@ -91,17 +93,17 @@ bool SFuzzyFunction::operator ==(SFuzzyFunction& cmp)
 
 /*
  * Las funciones de grado de verdad dentro del sistema pueden accederse a
- * travÃ©s de su descriptor o de su nombre. Esto Ãºltimo requiere que el nombre
- * de cada funciÃ³n dentro del sistema sea Ãºnico.
+ * través de su descriptor o de su nombre. Esto último requiere que el nombre
+ * de cada función dentro del sistema sea único.
  *
- * Con esta filosofÃ­a, pueden darse los siguientes dos casos a tener en cuenta:
+ * Con esta filosofía, pueden darse los siguientes dos casos a tener en cuenta:
  *
- * \li Que dos o mÃ¡s funciones con nombre diferente apunten a la misma funciÃ³n.
- * Esto estÃ¡ permitido. Puede verse este caso como que los diferentes nombres
- * son alias de una misma funciÃ³n.
- * \li Que dos o mÃ¡s funciones con el mismo nombre apunten a diferentes
- * funciones. Esto NO estÃ¡ permitido. En el sistema queda registrada la primera
- * funciÃ³n que se haya registrado. Las demÃ¡s serÃ¡n ignoradas.
+ * \li Que dos o más funciones con nombre diferente apunten a la misma función.
+ * Esto está permitido. Puede verse este caso como que los diferentes nombres
+ * son alias de una misma función.
+ * \li Que dos o más funciones con el mismo nombre apunten a diferentes
+ * funciones. Esto NO está permitido. En el sistema queda registrada la primera
+ * función que se haya registrado. Las demás serán ignoradas.
  *
  * \return false si el Nombre de las funciones coincide. true en cualquier otro
  * caso.
@@ -120,10 +122,10 @@ bool SFuzzyFunction::operator !=(SFuzzyFunction& cmp)
 
 
 /**
- * Este mapa almacena todas las funciones registradas en la librerÃ­a. Estas son
+ * Este mapa almacena todas las funciones registradas en la librería. Estas son
  * las funciones que definen los grados de verdad de los diferentes 'valores'.
  *
- * La librerÃ­a implementa esta lista como estÃ¡tica, lo que significa que serÃ¡
+ * La librería implementa esta lista como estática, lo que significa que será
  * compartida por todas las instancias de TStdFuzzyFunctions y heredadas. Esto
  * ahorra espacio en memoria RAM, entre otras cosas.
  *
@@ -139,12 +141,12 @@ unsigned int TStdFuzzyFunctions::m_uiInstances = 0;
 //-----------------------------------------------------------------------------
 
 /**
- * Se inicializa la clase registrando todas las funciones estÃ¡ndar. Para evitar
- * registrarlas mÃ¡s de una vez se comprueba el nÃºmero de funciones ya
- * registradas. En caso de ser mayor o igual al nÃºmero de funciones estÃ¡ndar no
+ * Se inicializa la clase registrando todas las funciones estándar. Para evitar
+ * registrarlas más de una vez se comprueba el número de funciones ya
+ * registradas. En caso de ser mayor o igual al número de funciones estándar no
  * se registra nada, pues significa que alguna otra instancia lo ha hecho con
- * antelaciÃ³n. De esta manera solo la primera instancia registra todas las
- * funciones estÃ¡ndar.
+ * antelación. De esta manera solo la primera instancia registra todas las
+ * funciones estándar.
  *
  * \sa registerFunctions(), ~TStdFuzzyFunctions()
  */
@@ -183,9 +185,9 @@ void TStdFuzzyFunctions::clear()
 //-----------------------------------------------------------------------------
 
 /**
- * Registra todas las funciones estÃ¡ndar definidas por la librerÃ­a. Para evitar
- * registrar mÃ¡s de una vez estas funciones se comprueba que la lista de
- * funciones registradas estÃ© vacÃ­a.
+ * Registra todas las funciones estándar definidas por la librería. Para evitar
+ * registrar más de una vez estas funciones se comprueba que la lista de
+ * funciones registradas esté vacía.
  */
 void TStdFuzzyFunctions::registerFunctions()
 {
@@ -193,41 +195,41 @@ void TStdFuzzyFunctions::registerFunctions()
 	{
 		SFuzzyFunction* func = new SFuzzyFunction;
 
-	    // FunciÃ³n gaussiana
+	    // Función gaussiana
 		func->name("Gaussian Bell");
 		func->ParamCount = 0;
 		func->Function   = gaussBell;
 		add(func);
 
-	    // FunciÃ³n S
+	    // Función S
 	    func = new SFuzzyFunction;
 	    func->name("S-Curve");
 	    func->ParamCount = 0;
 	    func->Function   = sCurve;
 	    add(func);
 
-	    // FunciÃ³n S invertida
+	    // Función S invertida
 	    func = new SFuzzyFunction;
 	    func->name("Inverted S-Curve");
 	    func->ParamCount = 0;
 	    func->Function   = inverseSCurve;
 	    add(func);
 
-	    // FunciÃ³n triangular
+	    // Función triangular
 	    func = new SFuzzyFunction;
 	    func->name("Triangle");
 	    func->ParamCount = 1;
 	    func->Function   = triangle;
 	    add(func);
 
-	    // FunciÃ³n triangular
+	    // Función triangular
 	    func = new SFuzzyFunction;
 	    func->name("Inverted Triangle");
 	    func->ParamCount = 1;
 	    func->Function   = inverseTriangle;
 	    add(func);
 
-	    // FunciÃ³n de interpolaciÃ³n de puntos
+	    // Función de interpolación de puntos
 	    func = new SFuzzyFunction;
 	    func->name("Interpolate");
 	    func->ParamCount = 0;
@@ -240,7 +242,7 @@ void TStdFuzzyFunctions::registerFunctions()
 fuzzvar TStdFuzzyFunctions::gaussBell(fuzzlist& params, fuzzvar x)
 {
     if(params.size() < 2)
-        throw TFuzzyError("gausBell", "NÃºmero de parÃ¡metros incorrecto",
+        throw TFuzzyError("gausBell", "Número de parámetros incorrecto",
         					__LINE__, __FILE__);
 
     fuzzvar width  = (abs(params[0]) + abs(params[1])) / 2.0;
@@ -255,7 +257,7 @@ fuzzvar TStdFuzzyFunctions::gaussBell(fuzzlist& params, fuzzvar x)
 fuzzvar TStdFuzzyFunctions::sCurve(fuzzlist& params, fuzzvar x)
 {
     if(params.size() < 2)
-        throw TFuzzyError("sCurve", "NÃºmero de parÃ¡metros incorrecto",
+        throw TFuzzyError("sCurve", "Número de parámetros incorrecto",
         					__LINE__, __FILE__);
 
     if(x < params[0])
@@ -286,7 +288,7 @@ fuzzvar TStdFuzzyFunctions::triangle(fuzzlist& params, fuzzvar x)
 	size_t sz_cnt = params.size();
 
     if(sz_cnt < 2)
-        throw TFuzzyError("triangle", "NÃºmero de parÃ¡metros incorrecto",
+        throw TFuzzyError("triangle", "Número de parámetros incorrecto",
         					__LINE__, __FILE__);
 
     fuzzvar mid = sz_cnt >= 3 ? params[2] : (params[0] + params[1]) / 2.0;
@@ -309,10 +311,10 @@ fuzzvar TStdFuzzyFunctions::interpolate(fuzzlist& params, fuzzvar x)
 	size_t sz_cnt = params.size();
 
     if(sz_cnt < 2)
-        throw TFuzzyError("interpolate", "NÃºmero de parÃ¡metros incorrecto",
+        throw TFuzzyError("interpolate", "Número de parámetros incorrecto",
         					__LINE__, __FILE__);
     if(sz_cnt % 2)
-        throw TFuzzyError("interpolate", "NÃºmero de parÃ¡metros debe ser par",
+        throw TFuzzyError("interpolate", "Número de parámetros debe ser par",
         					__LINE__, __FILE__);
 
     fuzzvar rtn;
@@ -334,7 +336,7 @@ fuzzvar TStdFuzzyFunctions::interpolate(fuzzlist& params, fuzzvar x)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] fFunc FunciÃ³n a registrar
+ * \param [in] fFunc Función a registrar
  *
  *
  */
@@ -343,9 +345,9 @@ fzhndl TStdFuzzyFunctions::add(SFuzzyFunction* fFunc)
 	if(!fFunc)
 		return INVALID_FUNC;
 	if(fFunc->name().empty())
-        throw TFuzzyError("add", "Nombre de funciÃ³n vacÃ­o", __LINE__, __FILE__);
+        throw TFuzzyError("add", "Nombre de función vacío", __LINE__, __FILE__);
 	if(fFunc->Function == NULL)
-        throw TFuzzyError("add", "Puntero a funciÃ³n NULL", __LINE__, __FILE__);
+        throw TFuzzyError("add", "Puntero a función NULL", __LINE__, __FILE__);
 
 	std::map<fzhndl, SFuzzyFunction*>::iterator iter = m_mFunctions.begin();
 
@@ -367,14 +369,14 @@ fzhndl TStdFuzzyFunctions::add(SFuzzyFunction* fFunc)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] ffId Descriptor de la funciÃ³n
+ * \param [in] ffId Descriptor de la función
  *
- * Las funciones de grado de verdad se almacenan en la librerÃ­a m_mFunctions.
- * A cada funciÃ³n se le asigna un descriptor Ãºnico que sirve para identifcarla
+ * Las funciones de grado de verdad se almacenan en la librería m_mFunctions.
+ * A cada función se le asigna un descriptor único que sirve para identifcarla
  * y poder acceder a ella.
  *
- * \return Puntero a la funciÃ³n cuyo descriptor es ffId. NULL en caso de no
- * encontrarse dicha funciÃ³n
+ * \return Puntero a la función cuyo descriptor es ffId. NULL en caso de no
+ * encontrarse dicha función
  * \sa add(), operator[], m_mFunctions
  */
 SFuzzyFunction* TStdFuzzyFunctions::operator[](fzhndl ffId)
@@ -386,14 +388,14 @@ SFuzzyFunction* TStdFuzzyFunctions::operator[](fzhndl ffId)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] iIndex PosiciÃ³n de la funciÃ³n a devolver
+ * \param [in] iIndex Posición de la función a devolver
  *
- * Las funciones de grado de verdad se almacenan en la librerÃ­a m_mFunctions.
- * A cada funciÃ³n se le asigna un descriptor Ãºnico que sirve para identifcarla
+ * Las funciones de grado de verdad se almacenan en la librería m_mFunctions.
+ * A cada función se le asigna un descriptor único que sirve para identifcarla
  * y poder acceder a ella.
  *
- * \return Puntero a la funciÃ³n en la posiciÃ³n iIndex. NULL en caso de no
- * encontrarse dicha funciÃ³n
+ * \return Puntero a la función en la posición iIndex. NULL en caso de no
+ * encontrarse dicha función
  * \sa add(), operator[], m_mFunctions
  */
 SFuzzyFunction* TStdFuzzyFunctions::operator[](int iIndex)
@@ -409,14 +411,14 @@ SFuzzyFunction* TStdFuzzyFunctions::operator[](int iIndex)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] strName Nombre de la funciÃ³n
+ * \param [in] strName Nombre de la función
  *
- * Las funciones de grado de verdad se almacenan en la librerÃ­a m_mFunctions.
- * Cada funciÃ³n tiene un nombre que la identifica y puede accederse a ella
- * mediante Ã©ste.
+ * Las funciones de grado de verdad se almacenan en la librería m_mFunctions.
+ * Cada función tiene un nombre que la identifica y puede accederse a ella
+ * mediante éste.
  *
- * \return Puntero a la funciÃ³n cuyo nombre es strName. NULL en caso de no
- * encontrarse dicha funciÃ³n
+ * \return Puntero a la función cuyo nombre es strName. NULL en caso de no
+ * encontrarse dicha función
  * \sa add(), operator[], m_mFunctions
  */
 SFuzzyFunction* TStdFuzzyFunctions::operator[](std::string strName)

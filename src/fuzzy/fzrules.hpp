@@ -2,7 +2,9 @@
  * \file fzrules.hpp
  *
  *  Rules define how sets relate to each other.
- *
+ */
+
+/*
  *     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -87,17 +89,17 @@ namespace nsFuzzy
 		/** Destructor principal */
 		virtual ~TFuzzyRules();
 
-		/** NÃºmero de reglas existentes */
+		/** Número de reglas existentes */
 		inline size_t size() { return m_vRules.size(); }
 
-		/** AÃ±ade una nueva regla al conjunto */
+		/** Añade una nueva regla al conjunto */
 		void add(std::string strRule);
 		/** Elimina una regla del conjunto */
 		void del(size_t szIndex);
 		/** Limpia la lista de reglas*/
 		void clear();
 
-		/** Devuelve la regla en la posiciÃ³n indicada */
+		/** Devuelve la regla en la posición indicada */
 		SFuzzyRule& operator[](size_t szIndex);
 
 		static SFuzzyRule invalid;

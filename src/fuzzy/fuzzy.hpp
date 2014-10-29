@@ -248,11 +248,13 @@ extern "C"
  * ayudarle a acelerar el proceso de aprendizaje y conseguir que se encuentre
  * cómodo lo más rápido posible usando este motor.
  *
- *
- *
  * \section sec_ug_install Instalación
  *
+ * \todo Completar la guía de instalación
+ *
  * \section sec_ug_start Comenzando
+ *
+ * \todo Completar una guía de "comenzando"
  *
  * \page pag_api_ref Manual de la API
  *

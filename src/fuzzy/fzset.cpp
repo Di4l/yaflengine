@@ -5,7 +5,9 @@
  *  defines a "characteristic" (temperature) in natural language ALWAYS within
  *  a given context. It is not the same to define what warm is in the context
  *  of stellar temperatures than in low temperature physics context.
- *
+ */
+
+/*
  *     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -38,11 +40,11 @@ using namespace nsFuzzy;
  * \param [in] strName Nombre del conjunto
  *
  * Inicializa la clase, asignando un nombre al conjunto y especificando su tipo
- * (FL_ID_SET). El nombre, se pasa como parÃ¡metro (strName) al constructor y es
- * un parÃ¡metro obligatorio. El nombre se convierte a minÃºsculas.
+ * (FL_ID_SET). El nombre, se pasa como parámetro (strName) al constructor y es
+ * un parámetro obligatorio. El nombre se convierte a minúsculas.
  *
  * Pueden existir nombres duplicados, pero no se recomienda porque algunas
- * funciones (operator[](std::string)) no funcionarÃ¡n como se espera.
+ * funciones (operator[](std::string)) no funcionarán como se espera.
  *
  * \return Nada.
  * \sa ~TFuzzySet()
@@ -55,7 +57,7 @@ TFuzzySet::TFuzzySet(std::string strName) : TFuzzyBase(FL_ID_SET)
 //-----------------------------------------------------------------------------
 
 /**
- *  Libera todos los recursos creados por la clase. VacÃ­a la lista de valores
+ *  Libera todos los recursos creados por la clase. Vacía la lista de valores
  *  (TFuzzyVal) y la memoria ocupada.
  *
  *  \return Nada
@@ -71,10 +73,10 @@ TFuzzySet::~TFuzzySet()
  * \param [in] strName Nombre del valor
  *
  * Devuelve el descriptor del valor (TFuzzyVal) con nombre strName. Si el valor
- * no existe como parte de este conjunto la funciÃ³n devuelve FL_INVALID_HANDLE.
+ * no existe como parte de este conjunto la función devuelve FL_INVALID_HANDLE.
  *
- * Es importante tener en cuenta que, si la funciÃ³n devuelve FL_INVALID_HANDLE
- * no significa que NO exista dicho valor en el sistema, sÃ³lo que no fomra
+ * Es importante tener en cuenta que, si la función devuelve FL_INVALID_HANDLE
+ * no significa que NO exista dicho valor en el sistema, sólo que no fomra
  * parte del conjunto consultado.
  *
  * \return Descriptor del valor con nombre strName. FL_INVALID_HANDLE en caso
@@ -94,15 +96,15 @@ fzhndl TFuzzySet::id(std::string strName)
 
 /**
  * Devuelve el valor inferior de la zona de influencia del conjunto. Este valor
- * es el valor mÃ­nimo del mÃ­nimo (TFuzzyVal::min()) de todos los valores
+ * es el valor mínimo del mínimo (TFuzzyVal::min()) de todos los valores
  * (TFuzzyVal) del conjunto.
  *
- * Este min() no siginifica que por debajo de este nÃºmero el conjunto no estÃ©
+ * Este min() no siginifica que por debajo de este número el conjunto no esté
  * definido. Lo que indica es que, por debajo de este valor, el conjunto
  * devuelve siempre la misma respuesta, que depende de los valores que lo
  * componen.
  *
- * \return El lÃ­mite inferior en el que el conjunto estÃ¡ definido.
+ * \return El límite inferior en el que el conjunto está definido.
  * \sa max(), TFuzzyVal::min()
  */
 fuzzvar TFuzzySet::min()
@@ -119,15 +121,15 @@ fuzzvar TFuzzySet::min()
 
 /**
  * Devuelve el valor superior de la zona de influencia del conjunto. Este valor
- * es el valor mÃ¡ximo del mÃ¡ximo (TFuzzyVal::max()) de todos los valores
+ * es el valor máximo del máximo (TFuzzyVal::max()) de todos los valores
  * (TFuzzyVal) del conjunto.
  *
- * Este max() no siginifica que por debajo de este nÃºmero el conjunto no estÃ©
+ * Este max() no siginifica que por debajo de este número el conjunto no esté
  * definido. Lo que indica es que, por encima de este valor, el conjunto
  * devuelve siempre la misma respuesta, que depende de los valores que lo
  * componen.
  *
- * \return El lÃ­mite superior en el que el conjunto estÃ¡ definido.
+ * \return El límite superior en el que el conjunto está definido.
  * \sa min(), TFuzzyVal::max()
  */
 fuzzvar TFuzzySet::max()
@@ -145,10 +147,10 @@ fuzzvar TFuzzySet::max()
 /**
  * \param [in] strName Nombre a asignar al valor
  *
- * Crea un nuevo valor (TFuzzyVal) con nombre strName, y lo aÃ±ade a la lista
- * de valores del conjunto. El nombre no tiene por quÃ© ser Ãºnico en el sistema,
+ * Crea un nuevo valor (TFuzzyVal) con nombre strName, y lo añade a la lista
+ * de valores del conjunto. El nombre no tiene por qué ser único en el sistema,
  * pero se recomienda que no se dupliquen nombres porque hay funciones
- * (operator[](std::string)) que no devolverÃ¡n los datos esperados.
+ * (operator[](std::string)) que no devolverán los datos esperados.
  *
  * \return descriptor (fzhndl) del valor con nombre strName. FL_INVALID_HANDLE
  * en caso de no encontrarse.
@@ -179,7 +181,7 @@ fzhndl TFuzzySet::add(std::string strName)
  *
  * Busca en la lista de valores (TFuzzyVal) del conjunto aquel cuyo descriptor
  * sea fzValue y lo elimina de la lista, liberando los recursos empleados por
- * Ã©ste. En caso de no encontrarse dicho valor la funciÃ³n no hace nada.
+ * éste. En caso de no encontrarse dicho valor la función no hace nada.
  *
  * \return Nada.
  * \sa clear(), add(), id()
@@ -197,7 +199,7 @@ void TFuzzySet::del(fzhndl fzValue)
 //-----------------------------------------------------------------------------
 
 /**
- * VacÃ­a la lista de valores (TFuzzyVal) del conjunto, liberando tambiÃ©n la
+ * Vacía la lista de valores (TFuzzyVal) del conjunto, liberando también la
  * memoria ocupada por ellos.
  *
  * \return Nada.
@@ -216,9 +218,9 @@ void TFuzzySet::clear()
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] x NÃºmero a calcular.
+ * \param [in] x Número a calcular.
  *
- * Este mÃ©todo se emplea en uno de los pasos intermedios a la hora de calcular
+ * Este método se emplea en uno de los pasos intermedios a la hora de calcular
  * el resultado final de un modelo dada una entrada \a x.
  *
  * \return x
@@ -251,9 +253,9 @@ TFuzzyVal& TFuzzySet::operator[](fzhndl fzId)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] iIndex PosiciÃ³n en la lista del valor.
+ * \param [in] iIndex Posición en la lista del valor.
  *
- * \return Valor del conjunto en la posiciÃ³n i Index. En caso de no encontrarse
+ * \return Valor del conjunto en la posición i Index. En caso de no encontrarse
  * dicho valor (out of bounds), retorna TFuzzyBase::invalid.
  * \sa operator[](fzhndl), operator[](std::string), size()
  */

@@ -4,6 +4,9 @@
  *  Defines a function later to be used as the curve for a value in a set.
  *  This creates a repository of functions where values can share the
  *  mathematical evaluation function.
+ */
+
+/*
  *
  *     Copyright (C) 2014  Ra鷏 Hermoso S醤chez
  *
@@ -42,26 +45,26 @@ namespace nsFuzzy
 {
 	//-------------------------------------------------------------------------
 
-	/** Define una funci贸n en el contexto de l贸gica difusa.
+	/** Define una funci髇 en el contexto de l骻ica difusa.
 	 *
-	 * Las funciones en l贸gica difusa corresponden a funciones matem谩ticas.
+	 * Las funciones en l骻ica difusa corresponden a funciones matem醫icas.
 	 * Definen el grado de verdad de un 'valor'. Los valores engloban ideas
-	 * concretas pero vagamente definidas (fr铆o, templado, alto, bajo...).
-	 * Estos valores, a su vez, se agrupan en conjuntos seg煤n conceptos
-	 * (temperatura, altura...). La figura a continuaci贸n muestra el conjunto
+	 * concretas pero vagamente definidas (fr韔, templado, alto, bajo...).
+	 * Estos valores, a su vez, se agrupan en conjuntos seg鷑 conceptos
+	 * (temperatura, altura...). La figura a continuaci髇 muestra el conjunto
 	 * 'temperatura' con tres 'valores' definidos mediante 'funciones'.
 	 *
 	 * \image html degree_of_truth.bmp "Grados de verdad, valores y conjuntos"
 	 *
-	 * Las funciones matem谩ticas que definen un grado de verdad deben cumplir
+	 * Las funciones matem醫icas que definen un grado de verdad deben cumplir
 	 * los siguientes requisitos:
 	 *
-	 * \li Estar definidas dentro del rango de valores de inter茅s (la ventana).
-	 * Esto significa que la funci贸n debe retornar un s贸lo valor 煤nico para
+	 * \li Estar definidas dentro del rango de valores de inter閟 (la ventana).
+	 * Esto significa que la funci髇 debe retornar un s髄o valor 鷑ico para
 	 * cada valor de la variable independiente dentro de la ventana.
-	 * \li Debe ser contin煤a (su deriva no debe ser infinita) dentro de la
+	 * \li Debe ser contin鷄 (su deriva no debe ser infinita) dentro de la
 	 * ventana.
-	 * \li La funci贸n debe devolver un valor comprendido entre 0 y 1 (ambos
+	 * \li La funci髇 debe devolver un valor comprendido entre 0 y 1 (ambos
 	 * inclusive), para todos los puntos dentro de la ventana. 0 significa un
 	 * grado de verdad 'nulo' y un 1 un grado de 'completa' verdad.
 	 *
@@ -69,9 +72,9 @@ namespace nsFuzzy
 	 */
 	struct SFuzzyFunction : public TFuzzyBase
 	{
-        /** N煤mero de par谩metros que necesita (sin contar min y max) */
+        /** N鷐ero de par醡etros que necesita (sin contar min y max) */
         int            ParamCount;
-        /** Puntero a la funci贸n */
+        /** Puntero a la funci髇 */
         FFuzzyFunction Function;
 
         /** Constructor de la estructura */
@@ -86,15 +89,15 @@ namespace nsFuzzy
 	};
 	//-------------------------------------------------------------------------
 
-	/** Contenedor est谩ndar de funciones para un entorno de l贸gica difusa
+	/** Contenedor est醤dar de funciones para un entorno de l骻ica difusa
 	 *
 	 *  Las funciones que contiene se usan para asignar valores a los conjuntos
-	 *  de un modelo. La lista interna de funciones se est谩tica, lo que
+	 *  de un modelo. La lista interna de funciones se est醫ica, lo que
 	 *  significa que la misma lista se comparte entre diferentes objetos de
 	 *  este tipo (y sus heredados).
 	 *
 	 *  \remark TStdFuzzyFunctions se considera una clase base y no se
-	 *  recomienda instanciar ning煤n objeto de este tipo directamente. En su
+	 *  recomienda instanciar ning鷑 objeto de este tipo directamente. En su
 	 *  lugar, instanciar un objeto de tipo TFuzzyFunctions.
 	 *
 	 *  \sa SFuzzyFunction, TFuzzyFunctions
@@ -109,19 +112,19 @@ namespace nsFuzzy
 
     	/** Limpia la lista de funciones registradas */
     	void clear();
-    	/** Registra las funciones est谩ndar disponibles */
+    	/** Registra las funciones est醤dar disponibles */
     	void registerFunctions();
-    	/** Devuelve el valor absoluto de un n煤mero
+    	/** Devuelve el valor absoluto de un n鷐ero
     	 *
     	 * \param [in] x Valor del que obtener su absoluto.
     	 *
-    	 * Es la versi贸n de coma flotante de abs definido en math.h.
+    	 * Es la versi髇 de coma flotante de abs definido en math.h.
     	 *
-    	 * \return el valor positivo del par谩metro x
+    	 * \return el valor positivo del par醡etro x
     	 */
     	static inline fuzzvar abs(fuzzvar x) { return x < 0 ? -x : x; }
 
-    	//-- Funciones est谩ndar
+    	//-- Funciones est醤dar
     	/** Gauss Bell Function */
         static fuzzvar gaussBell(fuzzlist& params, fuzzvar x);
     	/** An S-Curve function */
@@ -138,12 +141,12 @@ namespace nsFuzzy
     protected:
         /** Hace accesible la lista de funciones a las clases derivadas
          *
-         * \return mapa de las funciones registradas por la librer铆a.
+         * \return mapa de las funciones registradas por la librer韆.
          * \sa m_mFunctions
          */
         std::map<fzhndl, SFuzzyFunction*>& functions() { return m_mFunctions; }
 
-        /** Devuelve el n煤mero de instancias existentes de esta clase */
+        /** Devuelve el n鷐ero de instancias existentes de esta clase */
         virtual inline unsigned int instances() { return m_uiInstances; }
 
     public:
@@ -152,16 +155,16 @@ namespace nsFuzzy
     	/** Destructor de la clase */
     	virtual ~TStdFuzzyFunctions();
 
-    	/** N煤mero de funciones registradas */
+    	/** N鷐ero de funciones registradas */
     	inline size_t size() { return m_mFunctions.size(); }
 
-    	/** Registra una nueva funci贸n en el sistema */
+    	/** Registra una nueva funci髇 en el sistema */
         fzhndl add(SFuzzyFunction* fFunc);
-		/** Devuelve la funci贸n con el id especificado */
+		/** Devuelve la funci髇 con el id especificado */
 		SFuzzyFunction* operator[](fzhndl ffId);
-		/** Devuelve la funci贸n en la posici贸n especificada */
+		/** Devuelve la funci髇 en la posici髇 especificada */
 		SFuzzyFunction* operator[](int iIndex);
-		/** Devuelve la funci贸n con el nombre especificado */
+		/** Devuelve la funci髇 con el nombre especificado */
 		SFuzzyFunction* operator[](std::string strName);
     };
 	//-------------------------------------------------------------------------

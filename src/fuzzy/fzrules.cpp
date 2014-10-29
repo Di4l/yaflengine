@@ -2,7 +2,9 @@
  * \file fzrules.hpp
  *
  *  Rules define how sets relate to each other.
- *
+ */
+
+/*
  *     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify

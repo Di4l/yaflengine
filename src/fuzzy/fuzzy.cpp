@@ -2,7 +2,9 @@
  * \file fuzzy.cpp
  *
  *  This file is only used when compiling with the C++Builder IDE.
- *
+ */
+
+/*
  *     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -33,9 +35,9 @@
 using namespace nsFuzzy;
 //-----------------------------------------------------------------------------
 
-/** Autor de la librerÃ­a */
+/** Autor de la librería */
 #define FL_AUTHOR	"Raul Hermoso"
-/** VersiÃ³n de la librerÃ­a */
+/** Versión de la librería */
 #define FL_VERSION	"v1.0.0"
 //-----------------------------------------------------------------------------
 

@@ -3,7 +3,9 @@
  *
  *  A model binds a group of Sets and Rules. Rules define how sets relate to
  *  each other.
- *
+ */
+
+/*
  *     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -32,7 +34,7 @@
 //-----------------------------------------------------------------------------
 #include "fzrules.hpp"
 //-----------------------------------------------------------------------------
-/** NÃºmero de puntos en cada funciÃ³n para propÃ³sitos de pintado */
+/** Número de puntos en cada función para propósitos de pintado */
 #define FL_CRV_COUNT		1000
 //-----------------------------------------------------------------------------
 

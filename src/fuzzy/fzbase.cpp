@@ -2,8 +2,9 @@
  * \file fzbase.cpp
  *
  *  Base class definition. Almost all other classes shall inherit from this.
- *
- *     Copyright (C) 2014  Raúl Hermoso Sánchez
+ */
+
+/*     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by
@@ -45,15 +46,15 @@ TFuzzyBase                    TFuzzyBase::m_fbInvalid;
  * Inicializa un objeto "fuzzy", se le asigna un descriptor y se inserta en
  * la lista de objetos.
  *
- * Tipo indica el tipo de objeto creado. Ãštil para realizar bÃºsquedas. Los
+ * Tipo indica el tipo de objeto creado. Útil para realizar búsquedas. Los
  * tipos actualmente definidos son:
  *
  * \li FL_ID_UNDEFINED Tipo NO definido
  * \li FL_ID_VAL       Un valor
  * \li FL_ID_SET       Un conjunto
- * \li FL_ID_FUN       Una funciÃ³n
+ * \li FL_ID_FUN       Una función
  * \li FL_ID_RUL       Una regla
- * \li FL_ID_MOD       Un mÃ³dulo
+ * \li FL_ID_MOD       Un módulo
  *
  * \return nada
  * \sa ~TFuzzyBase(), m_mObjects
@@ -74,7 +75,7 @@ TFuzzyBase::TFuzzyBase(int Tipo)
  * objetos.
  *
  * Lo primero que se hace es asignar el tipo a "no definido", de manera que, si
- * por alguna razÃ³n el objeto no es sacado de la lista, se puede identificar
+ * por alguna razón el objeto no es sacado de la lista, se puede identificar
  * los objetos vagabundos buscando aquellos cuyo tipo sea FL_ID_UNDEFINED.
  *
  * \return Nada
@@ -93,7 +94,7 @@ TFuzzyBase::~TFuzzyBase()
 /**
  * \param [in] strText Cadena a convertir
  *
- * \return Devuelve strText convertida a minÃºsculas
+ * \return Devuelve strText convertida a minúsculas
  */
 std::string& TFuzzyBase::toLower(std::string& strText)
 {
@@ -133,8 +134,8 @@ std::string& TFuzzyBase::trim(std::string& strText)
  * \param [in] fhHandle Descriptor del objeto a obtener
  *
  * Este operador devuelve el objeto cuyo descriptor sea fhHandle. El objeto
- * debe ser de tipo TFuzzyBase o derivado, de lo contrario no se encontrarÃ¡ en
- * la lista de objetos registrados por la librerÃ­a.
+ * debe ser de tipo TFuzzyBase o derivado, de lo contrario no se encontrará en
+ * la lista de objetos registrados por la librería.
  *
  * \return puntero al objeto "fuzzy" con descriptor fhHandle. NULL en caso de
  * no encontrarse.
@@ -149,9 +150,9 @@ TFuzzyBase* TFuzzyBase::operator[](fzhndl fhHandle)
 //-----------------------------------------------------------------------------
 
 /**
- *  \param [in] strName Nombre a asignar a la funciÃ³n
+ *  \param [in] strName Nombre a asignar a la función
  *
- * Este mÃ©todo asigna un nuevo nommbre al objeto.
+ * Este método asigna un nuevo nommbre al objeto.
  */
 void TFuzzyBase::name(std::string strName)
 {
@@ -164,7 +165,7 @@ void TFuzzyBase::name(std::string strName)
  * \param [in] cmp Objeto "fuzzy" con el que compararse
  *
  * Este operador primero comprueba si se trata del MISMO objeto (ambos tienen
- * la misma direcciÃ³n de memoria). En caso contrario compara los tipos.
+ * la misma dirección de memoria). En caso contrario compara los tipos.
  *
  * \return true en caso de ser el mismo objeto o que los tipos sean iguales.
  * false en caso contrario
@@ -180,7 +181,7 @@ bool TFuzzyBase::operator==(TFuzzyBase& cmp)
  * \param [in] cmp Objeto "fuzzy" con el que compararse
  *
  * Este operador primero comprueba si se trata del MISMO objeto (ambos tienen
- * la misma direcciÃ³n de memoria). En caso contrario compara los tipos y
+ * la misma dirección de memoria). En caso contrario compara los tipos y
  * nombres.
  *
  * \return true en caso de ser objetos diferentes o que los tipos o nombres
@@ -204,7 +205,7 @@ bool TFuzzyBase::operator!=(TFuzzyBase& cmp)
 
 
 /**
- *  Constrcutor Ãºnico de la clase, no necesita inicializar nada, pues no tiene
+ *  Constrcutor único de la clase, no necesita inicializar nada, pues no tiene
  *  variables particulares, a parte de las que ya tiene TFuzzyBase.
  */
 TFuzzyObjects::TFuzzyObjects() : TFuzzyBase(FL_ID_OBJS)
@@ -223,7 +224,7 @@ TFuzzyObjects::~TFuzzyObjects()
 /**
  * \param [in] fzId Identificador del objeto a obtener.
  *
- * Devuelve el objeto especificado por el parÃ¡metro <i>fzId</i>
+ * Devuelve el objeto especificado por el parámetro <i>fzId</i>
  *
  * \return Objeto con identificador <i>fzId</i>. En caso de no existir,
  * devuelve TFuzzyBase::invalid.
@@ -249,7 +250,7 @@ TFuzzyBase& TFuzzyObjects::operator[](fzhndl fzId)
 
 
 /**
- * Constructor bÃ¡sico de la clase. Inicializa todas las variables a los
+ * Constructor básico de la clase. Inicializa todas las variables a los
  * valores por defecto.
  *
  * \return Nada
@@ -266,16 +267,16 @@ TFuzzyError::TFuzzyError()
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] What QuÃ© es lo que ha producido el error
- * \param [in] iError CÃ³digo del error producido
- * \param [in] uiLine NÃºmero de lÃ­nea donde se ha producido el error
+ * \param [in] What Qué es lo que ha producido el error
+ * \param [in] iError Código del error producido
+ * \param [in] uiLine Número de línea donde se ha producido el error
  * \param [in] cFile Archivo donde se produjo el error
  *
- * Este constructor recibe cuatro parÃ¡metros. 'What' es una cadena de texto que
- * indica quÃ© es lo que fallÃ³. 'iError' identifica el por quÃ© ha fallado (NULL
+ * Este constructor recibe cuatro parámetros. 'What' es una cadena de texto que
+ * indica qué es lo que falló. 'iError' identifica el por qué ha fallado (NULL
  * pointer, etc...). 'cFile' es el nombre del archivo fuente donde se ha
- * producido el error y 'uiLine' es la lÃ­nea en el archivo. Juntos forman el
- * 'dÃ³nde'.
+ * producido el error y 'uiLine' es la línea en el archivo. Juntos forman el
+ * 'dónde'.
  *
  * \return Nada
  * \sa TFuzzyError(), ~TFuzzyError()
@@ -292,16 +293,16 @@ TFuzzyError::TFuzzyError(const char* What, int iError,
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] What QuÃ© es lo que ha producido el error
- * \param [in] Why  Por quÃ© se ha producido el error
- * \param [in] uiLine NÃºmero de lÃ­nea donde se ha producido el error
+ * \param [in] What Qué es lo que ha producido el error
+ * \param [in] Why  Por qué se ha producido el error
+ * \param [in] uiLine Número de línea donde se ha producido el error
  * \param [in] cFile Archivo donde se produjo el error
  *
- * Este constructor recibe cuatro parÃ¡metros. 'What' es una cadena de texto que
- * indica quÃ© es lo que fallÃ³. 'Why' determina el por quÃ© ha fallado (NULL
+ * Este constructor recibe cuatro parámetros. 'What' es una cadena de texto que
+ * indica qué es lo que falló. 'Why' determina el por qué ha fallado (NULL
  * pointer, etc...). 'cFile' es el nombre del archivo fuente donde se ha
- * producido el error y 'uiLine' es la lÃ­nea en el archivo. Juntos forman el
- * 'dÃ³nde'.
+ * producido el error y 'uiLine' es la línea en el archivo. Juntos forman el
+ * 'dónde'.
  *
  * \return Nada
  * \sa TFuzzyError(), ~TFuzzyError()
@@ -334,8 +335,8 @@ TFuzzyError::~TFuzzyError()
 //-----------------------------------------------------------------------------
 
 /**
- * Devuelve el 'dÃ³nde' como una cadena de texto en un formato mÃ¡s o menos
- * estÃ¡ndar. <nombre_fichero>:<linea>
+ * Devuelve el 'dónde' como una cadena de texto en un formato más o menos
+ * estándar. <nombre_fichero>:<linea>
  *
  * \return Cadena de texto con el lugar donde se produjo el error.
  * \sa line(), file()
@@ -350,8 +351,8 @@ std::string TFuzzyError::where()
 //-----------------------------------------------------------------------------
 
 /**
- * Devuelve el 'dÃ³nde' como una cadena de texto en un formato mÃ¡s o menos
- * estÃ¡ndar. <nombre_fichero>:<linea>
+ * Devuelve el 'dónde' como una cadena de texto en un formato más o menos
+ * estándar. <nombre_fichero>:<linea>
  *
  * \return Cadena de texto con el lugar donde se produjo el error.
  * \sa line(), file()

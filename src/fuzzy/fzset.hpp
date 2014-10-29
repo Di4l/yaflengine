@@ -5,7 +5,9 @@
  *  defines a "characteristic" (temperature) in natural language ALWAYS within
  *  a given context. It is not the same to define what warm is in the context
  *  of stellar temperatures than in low temperature physics context.
- *
+ */
+
+/*
  *     Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -39,10 +41,10 @@ namespace nsFuzzy
 	//-------------------------------------------------------------------------
 
 	/**
-	 * Define un conjunto (set) en lÃ³gica difusa. Un conjunto define, mediante
+	 * Define un conjunto (set) en lógica difusa. Un conjunto define, mediante
 	 * \a valores (TFuzzyVal), los diferentes estados de una propiedad \a
-	 * medible. Un ejemplo de conjunto podrÃ­a ser la temperatura de una
-	 * caldera, y algunos de sus \a valores serÃ­an: Caliente, FrÃ­o, Templado...
+	 * medible. Un ejemplo de conjunto podría ser la temperatura de una
+	 * caldera, y algunos de sus \a valores serían: Caliente, Frío, Templado...
 	 *
 	 * \sa TFuzzyVal, TFuzzySets, TFuzzyModel
 	 */
@@ -53,7 +55,7 @@ namespace nsFuzzy
 		 *
 		 *  Los valores (TFuzzyVal) que forman parte del conjunto (TFuzzySet)
 		 *  se almacenan en un mapa, cuya llave es el descriptor (fzhndl) del
-		 *  mismo. Esto permite bÃºsquedas rÃ¡pidas en la lista.
+		 *  mismo. Esto permite búsquedas rápidas en la lista.
 		 *
 		 *  \sa id(), operator[]()
 		 */
@@ -69,21 +71,21 @@ namespace nsFuzzy
 		/** Destructor de un conjunto */
 		virtual ~TFuzzySet();
 
-		/** NÃºmero de valores del conjunto
+		/** Número de valores del conjunto
 		 *
-		 *  Devuelve el nÃºmero de valores (TFuzzyVal) del conjunto.
+		 *  Devuelve el número de valores (TFuzzyVal) del conjunto.
 		 *
-		 *  \return NÃºmero de valores que contiene el grupo
+		 *  \return Número de valores que contiene el grupo
 		 *  \sa m_fvValues, operator[]()
 		 */
 		inline size_t   size()   { return m_fvValues.size(); }
 
-		/** Devuelve el lÃ­mite inferior de influencia del conjunto */
+		/** Devuelve el límite inferior de influencia del conjunto */
 		fuzzvar min();
-		/** Devuelve el lÃ­mite superior de influencia del conjunto */
+		/** Devuelve el límite superior de influencia del conjunto */
 		fuzzvar max();
 
-		/** AÃ±ade un nuevo valor al conjunto */
+		/** Añade un nuevo valor al conjunto */
 		fzhndl add(std::string strName);
 		/** ELimina en valor del conjunto */
 		void   del(fzhndl fzValue);
@@ -96,7 +98,7 @@ namespace nsFuzzy
 
 		/** Devuelve un valor (TFuzyVal) dado su descriptor */
 		TFuzzyVal& operator[](fzhndl fzId);
-		/** Devuelve el valor (TFuzyVal) que ocupa la posiciÃ³n dada */
+		/** Devuelve el valor (TFuzyVal) que ocupa la posición dada */
 		TFuzzyVal& operator[](int iIndex);
 		/** Devuelve un valor (TFuzyVal) dado su nombre */
 		TFuzzyVal& operator[](std::string strName);
@@ -107,8 +109,8 @@ namespace nsFuzzy
 	 * Mantiene una lista de conjuntos (TFuzzySet) para usar en un modelo
 	 * (TFuzzyNModel).
 	 *
-	 * Un modelo (TFuzzyModel) de lÃ³gica difusa usa varios conjuntos y una
-	 * serie de reglas (TFuzzyRules) que indican la relaciÃ³n que existe entre
+	 * Un modelo (TFuzzyModel) de lógica difusa usa varios conjuntos y una
+	 * serie de reglas (TFuzzyRules) que indican la relación que existe entre
 	 * cada uno. Todos los conjuntos que participan en un modelo se agrupan en
 	 * esta clase.
 	 *
@@ -127,25 +129,25 @@ namespace nsFuzzy
 		/** Destructor de la clase. */
 		virtual ~TFuzzySets();
 
-		/** NÃºmero de conjuntos del grupo.
+		/** Número de conjuntos del grupo.
 		 *
-		 *  Devuelve el nÃºmero de conjuntos (TFuzzySet) que contiene el grupo.
+		 *  Devuelve el número de conjuntos (TFuzzySet) que contiene el grupo.
 		 *
-		 * \return NÃºmero de conjuntos (TFuzzySet) que forman el grupo.
+		 * \return Número de conjuntos (TFuzzySet) que forman el grupo.
 		 * \sa m_mSets, operator[]()
 		 */
 		inline size_t size() { return m_mSets.size(); }
 
-		/** AÃ±ade un nuevo conjunto (TFuzzySet) al grupo. */
+		/** Añade un nuevo conjunto (TFuzzySet) al grupo. */
 		fzhndl add(std::string strName);
 		/** Elimina un conjunto (TFuzzySet) del grupo. */
 		void   del(fzhndl fhId);
-		/** VacÃ­a el grupo de los conjuntos (TFuzzySet) que contenga. */
+		/** Vacía el grupo de los conjuntos (TFuzzySet) que contenga. */
 		void   clear();
 
 		/** Devuelve el conjunto (TFuzzySet) con el descriptor especificado. */
 		TFuzzySet& operator[](fzhndl fhId);
-		/** Devuelve el conjunto (TFuzzySet) en la posiciÃ³n especificada. */
+		/** Devuelve el conjunto (TFuzzySet) en la posición especificada. */
 		TFuzzySet& operator[](int iIndex);
 		/** Devuelve el conjunto (TFuzzySet) con el nombre especificado. */
 		TFuzzySet& operator[](std::string strName);

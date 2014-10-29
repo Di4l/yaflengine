@@ -2,7 +2,9 @@
  * \file fzval.cpp
  *
  *  A Value defines a set's adjective (warm, cold, hot, melting).
- *
+ */
+
+/*
  *     Copyright (C) 2014  Ra˙l Hermoso S·nchez
  *
  *    This program is free software; you can redistribute it and/or modify
@@ -36,7 +38,7 @@ TFuzzyFunctions TFuzzyVal::m_ffFunctions;
 /**
  * \param [in] strName Nombre identificativo para la instancia
  *
- * Constructor de la clase. Esta forma del constructor necesita como par√°metro
+ * Constructor de la clase. Esta forma del constructor necesita como par·metro
  * el nombre con el que se le quiere identificar dentro de un set.
  *
  * \return Nada
@@ -68,12 +70,12 @@ TFuzzyVal::~TFuzzyVal()
 //-----------------------------------------------------------------------------
 
 /**
- *  \param [in] x Valor de entrada a la funci√≥n
+ *  \param [in] x Valor de entrada a la funciÛn
  *
- *  Esta funci√≥n recibe el valor x, lo aplica la funci√≥n asociada y retorna el
+ *  Esta funciÛn recibe el valor x, lo aplica la funciÛn asociada y retorna el
  *  resultado.
  *
- *  \return Resultado de aplicar el valor x a la funci√≥n definida para este
+ *  \return Resultado de aplicar el valor x a la funciÛn definida para este
  *  valor.
  *  \sa FFuzzyFunction, execute()
  */
@@ -93,7 +95,7 @@ fuzzvar TFuzzyVal::exeFunction(fuzzvar x)
 //-----------------------------------------------------------------------------
 
 /**
- * Calcula el punto donde la funci√≥n es m√°xima
+ * Calcula el punto donde la funciÛn es m·xima
  */
 fuzzvar TFuzzyVal::calcMaxFunc()
 {
@@ -132,16 +134,16 @@ fuzzvar TFuzzyVal::calcMaxFunc()
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] szCount N√∫mero de par√°metros a asignar
+ * \param [in] szCount N˙mero de par·metros a asignar
  *
- * Asigna el n√∫mero de par√°metros que necesita la funci√≥n para poder calcular
+ * Asigna el n˙mero de par·metros que necesita la funciÛn para poder calcular
  * un resultado.
  *
- * La mayor√≠a de las funciones predeterminadas en la librer√≠a Fuzzy son
- * expresiones matem√°ticas bien definidas y no necesitan ning√∫n par√°metro
+ * La mayorÌa de las funciones predeterminadas en la librerÌa Fuzzy son
+ * expresiones matem·ticas bien definidas y no necesitan ning˙n par·metro
  * extra a parte del valor X sobre el que se quiere calcular el resultado. Para
- * funciones de interpolaci√≥n, por ejemplo, es necesario suministrar como
- * par√°metros los puntos sobre los que debe extrapolar la funci√≥n.
+ * funciones de interpolaciÛn, por ejemplo, es necesario suministrar como
+ * par·metros los puntos sobre los que debe extrapolar la funciÛn.
  *
  * \return Nada
  * \sa operator[](), size()
@@ -158,14 +160,14 @@ void TFuzzyVal::size(size_t szCount)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] fvMin Valor m√≠nimo de la funci√≥n
+ * \param [in] fvMin Valor mÌnimo de la funciÛn
  *
- * Este m√©todo asigna el l√≠mite inferior sobre el que la funci√≥n est√° definida.
- * Todo aquel valor \a x menor que fvMin devolver√° como resultado a una llamada a
+ * Este mÈtodo asigna el lÌmite inferior sobre el que la funciÛn est· definida.
+ * Todo aquel valor \a x menor que fvMin devolver· como resultado a una llamada a
  * execute() el mismo valor que si <i>x = fvMin</i>.
  *
- * El prop√≥sito de esto es extender fuera de los l√≠mites definido el resultado
- * de caulquier funci√≥n.
+ * El propÛsito de esto es extender fuera de los lÌmites definido el resultado
+ * de caulquier funciÛn.
  *
  * \return Nada
  * \sa max(), execute()
@@ -180,14 +182,14 @@ void TFuzzyVal::min(fuzzvar fvMin)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] fvMax Valor m√°ximo de la funci√≥n
+ * \param [in] fvMax Valor m·ximo de la funciÛn
  *
- * Este m√©todo asigna el l√≠mite superior sobre el que la funci√≥n est√° definida.
- * Todo aquel valor \a x mayor que fvMax devolver√° como resultado a una llamada a
+ * Este mÈtodo asigna el lÌmite superior sobre el que la funciÛn est· definida.
+ * Todo aquel valor \a x mayor que fvMax devolver· como resultado a una llamada a
  * execute() el mismo valor que si <i>x = fvMax</i>.
  *
- * El prop√≥sito de esto es extender fuera de los l√≠mites definido el resultado
- * de caulquier funci√≥n.
+ * El propÛsito de esto es extender fuera de los lÌmites definido el resultado
+ * de caulquier funciÛn.
  *
  * \return Nada
  * \sa min(), execute()
@@ -212,18 +214,18 @@ void TFuzzyVal::max(fuzzvar fvMax)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] strName Nombre de la funci√≥n a asignar.
+ * \param [in] strName Nombre de la funciÛn a asignar.
  *
- * Cada valor (TFuzzyVal) de un conjunto (TFuzzySet) est√° asociado a una
- * funci√≥n que define su grado de verdad dentro del conjunto. √âste m√©todo
- * asigna la funci√≥n a partir del nombre de la misma.
+ * Cada valor (TFuzzyVal) de un conjunto (TFuzzySet) est· asociado a una
+ * funciÛn que define su grado de verdad dentro del conjunto. √âste mÈtodo
+ * asigna la funciÛn a partir del nombre de la misma.
  *
- * La librer√≠a Fuzzy incorpora una serie de funciones consideradas est√°ndar
- * que pueden emplearse de manera nativa. La definici√≥n de estas funciones y
+ * La librerÌa Fuzzy incorpora una serie de funciones consideradas est·ndar
+ * que pueden emplearse de manera nativa. La definiciÛn de estas funciones y
  * sus nombres se encuentran en TStdFuzzyFunctions.
  *
- * \return Descriptor a la funci√≥n con nombre strName, FL_INVALID_HANDLE en
- * caso de no existir la funci√≥n.
+ * \return Descriptor a la funciÛn con nombre strName, FL_INVALID_HANDLE en
+ * caso de no existir la funciÛn.
  * \sa TStdFuzzyFunctions, TFuzzyFunctions
  */
 fzhndl TFuzzyVal::setFunction(std::string strName)
@@ -238,17 +240,17 @@ fzhndl TFuzzyVal::setFunction(std::string strName)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] ffId Descriptor de la funci√≥n a asignar.
+ * \param [in] ffId Descriptor de la funciÛn a asignar.
  *
- * Cada valor (TFuzzyVal) de un conjunto (TFuzzySet) est√° asociado a una
- * funci√≥n que define su grado de verdad dentro del conjunto. √âste m√©todo
- * asigna la funci√≥n a partir del descriptor de la misma.
+ * Cada valor (TFuzzyVal) de un conjunto (TFuzzySet) est· asociado a una
+ * funciÛn que define su grado de verdad dentro del conjunto. √âste mÈtodo
+ * asigna la funciÛn a partir del descriptor de la misma.
  *
- * La librer√≠a Fuzzy incorpora una serie de funciones consideradas est√°ndar
- * que pueden emplearse de manera nativa. La definici√≥n de estas funciones y
+ * La librerÌa Fuzzy incorpora una serie de funciones consideradas est·ndar
+ * que pueden emplearse de manera nativa. La definiciÛn de estas funciones y
  * sus nombres y descriptores se encuentran en TStdFuzzyFunctions.
  *
- * \return Nombre de la funci√≥n con descriptor ffId, FL_INVALID_HANDLE en caso
+ * \return Nombre de la funciÛn con descriptor ffId, FL_INVALID_HANDLE en caso
  * de no existir el descriptor.
  * \sa TStdFuzzyFunctions, TFuzzyFunctions
  */
@@ -263,15 +265,15 @@ std::string TFuzzyVal::setFunction(fzhndl ffId)
 //-----------------------------------------------------------------------------
 
 /**
- * \param [in] iIndex Posici√≥n del par√°metro.
+ * \param [in] iIndex PosiciÛn del par·metro.
  *
- * Para aquellas funciones con alg√∫n par√°metro de configuraci√≥n, este operador
- * devuelve el valor del par√°metro en la posici√≥n iIndex, siendo el primero el
- * par√°metro 0. Para determinar cu√°ntos par√°metros tiene una funcion se puede
- * usar el m√©todo size().
+ * Para aquellas funciones con alg˙n par·metro de configuraciÛn, este operador
+ * devuelve el valor del par·metro en la posiciÛn iIndex, siendo el primero el
+ * par·metro 0. Para determinar cu·ntos par·metros tiene una funcion se puede
+ * usar el mÈtodo size().
  *
- * \return Valor del par√°metro en la posici√≥n iIndex, TFuzzyBase::invalid()
- * en caso de no existir dicha posici√≥n.
+ * \return Valor del par·metro en la posiciÛn iIndex, TFuzzyBase::invalid()
+ * en caso de no existir dicha posiciÛn.
  * \sa size()
  */
 fuzzvar& TFuzzyVal::operator[](int iIndex)
