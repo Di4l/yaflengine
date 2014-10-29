@@ -1,4 +1,4 @@
-/*
+/**
  * \file fuzzy.cpp
  *
  *  This file is only used when compiling with the C++Builder IDE.

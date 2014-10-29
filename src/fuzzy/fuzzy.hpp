@@ -1,9 +1,12 @@
-/*
+/**
  * \file fuzzy.hpp
+ * Main project include file.
  *
- *  General definitions for the fuzzy framework.
- *
- *     Copyright (C) 2014  Raúl Hermoso Sánchez
+ * This files includes general definitions for the fuzzy framework that
+ * shall be used throughout the project.
+ */
+
+/*    Copyright (C) 2014  Raúl Hermoso Sánchez
  *
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by
@@ -22,8 +25,7 @@
  *
  *    created: 02/03/2007
  *    author: Raúl Hermoso Sánchez
- *    e-mail: raul.hermoso@gmail.com
- *
+ *    e-mail: <mailto:raul.hermoso@gmail.com>
  */
 //-----------------------------------------------------------------------------
 #ifndef __FUZZY_HPP__
@@ -159,3 +161,101 @@ extern "C"
 //-----------------------------------------------------------------------------
 #endif /* __FUZZY_HPP__ */
 //-----------------------------------------------------------------------------
+
+/**
+ * \mainpage
+ *
+ * \section sec_intro Introducción
+ *
+ * El nombre Yaflengine viene de <em>Y otro motor de lógica difusa</em> por sus
+ * siglas en inglés. Es una librería que le permite realizar cálculos usando
+ * <a href="http://es.wikipedia.org/wiki/L%C3%B3gica_difusa">lógica difusa</a>.
+ * Está escrita en su totalidad en C++ y compila tanto en Windows como en
+ * Linux.
+ *
+ * Con Yaflengine podrá:
+ *
+ * \li Crear/modificar en tiempo de ejecución modelos.
+ * \li Guardar/Cargar modelos. El formato de los archivos es el de los
+ * <a href="http://es.wikipedia.org/wiki/INI_(extensi%C3%B3n_de_archivo)">archivos .ini</a>
+ * de Windows.
+ * \li Concatenar \c N modelos.
+ *
+ * Yaflengine esta escrito completamente en C++ y compila tanto en Windows como
+ * en Linux. El autor ha compilado el motor en una
+ * <a href="http://es.wikipedia.org/wiki/Raspberry_Pi">Rasberry Pi</a> corriendo
+ * <a href="http://es.wikipedia.org/wiki/Arch_Linux">Arch Linux</a>.
+ *
+ * La documentación está dividida en dos partes, cada una subdividida en varias
+ * secciones.
+ *
+ * La primera parte forma la guía de usuario.
+ *
+ * \todo Rellenar la lista de secciones que componen la guía de usuario
+ *
+ * La segunda parte forma el manual de referencia (manual API).
+ *
+ * \todo Rellenar la lista de secciones que componen la API
+ *
+ * \subsection ssec_find Dónde encontrar Yaflengine
+ *
+ * Yaflengine es la primera librería que hago accesible al público. Después de
+ * mirar diferentes opciones, me decidí por <a href="https://github.com/">GitHub</a>.
+ * La página web del proyecto se encuentra en <http://di4l.github.io/yaflengine/>.
+ * En la página podrá encontrar enlaces a la documentación que actualmente está
+ * leyendo, al código fuente, la última entrega estable y la wiki.
+ *
+ * Hay varios tipos de descargas que puede realizar. Si pretende compilar el
+ * proyecto uested mismo, debe descargar el código fuente, si por el contrario
+ * sólo está interesado en usar el motor en alguno de sus proyectos puede
+ * descargar los binarios y ficheros cabecera.
+ *
+ * \li Última entrega: <https://github.com/Di4l/yaflengine/releases/latest>
+ * \li Último desarrollo: <https://github.com/Di4l/yaflengine>
+ *
+ * Existe una Wiki del proyecto (en desarrollo) donde encontrará infromación
+ * variada y enlaces a otras aprtes del proyecto. El enlace a la Wiki es
+ * <https://github.com/Di4l/yaflengine/wiki>
+ *
+ * Por último, la documentación que está usted leyendo (en inglés) se encuentra
+ * en <http://di4l.github.io/yaflengine/dev_doc/html/index.html>
+ *
+ * \subsection ssec_copyright Licencia Yaflengine
+ *
+ *    Copyright (C) 2014  Raúl Hermoso Sánchez
+ *
+ *    This program is free software; you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation; either version 2 of the License, or
+ *    (at your option) any later version.
+ *
+ *    This program is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the \ref pag_license "GNU General Public License"
+ *    along with this program; if not, write to the Free Software Foundation,
+ *    Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ * \page pag_license Yaflengine License
+ * \verbinclude LICENSE
+ *
+ * \page pag_user_manual Guía de usuario
+ *
+ * Las diferentes secciones que componen este documento le guiarán en las
+ * diferentes etapas de uso de Yaflengine en sus proyectos. Con esto esperamos
+ * ayudarle a acelerar el proceso de aprendizaje y conseguir que se encuentre
+ * cómodo lo más rápido posible usando este motor.
+ *
+ *
+ *
+ * \section sec_ug_install Instalación
+ *
+ * \section sec_ug_start Comenzando
+ *
+ * \page pag_api_ref Manual de la API
+ *
+ * \todo Rellenar aqui una especie de introducción de la API
+ *
+ */

@@ -1,4 +1,4 @@
-/*
+/**
  * \file fzmodel.hpp
  *
  *  A model binds a group of Sets and Rules. Rules define how sets relate to

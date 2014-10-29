@@ -1,4 +1,4 @@
-/*
+/**
  * \file fzval.cpp
  *
  *  A Value defines a set's adjective (warm, cold, hot, melting).

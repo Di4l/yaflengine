@@ -1,4 +1,4 @@
-/*
+/**
  * \file fzfunction.hpp
  *
  *  Defines a function later to be used as the curve for a value in a set.

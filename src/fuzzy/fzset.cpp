@@ -1,4 +1,4 @@
-/*
+/**
  * \file fzset.cpp
  *
  *  A Set groups related "concepts" (cold, warm, hot) called Values, and

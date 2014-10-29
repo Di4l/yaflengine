@@ -1,4 +1,4 @@
-/*
+/**
  * \file fzrules.hpp
  *
  *  Rules define how sets relate to each other.

@@ -1,4 +1,4 @@
-/*
+/**
  * \file fzbase.hpp
  *
  *  Base class declaration

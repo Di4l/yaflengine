@@ -1,4 +1,4 @@
-/*
+/**
  * \file fzbase.cpp
  *
  *  Base class definition. Almost all other classes shall inherit from this.
