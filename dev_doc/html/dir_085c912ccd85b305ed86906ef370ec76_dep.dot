@@ -1,9 +1,0 @@
-digraph "D:/dev/prj/yaflengine/src/fuzzy" {
-  compound=true
-  node [ fontsize="10", fontname="FreeSans.ttf"];
-  edge [ labelfontsize="10", labelfontname="FreeSans.ttf"];
-  subgraph clusterdir_cef700b09bfd17b888ee761eabfccc88 {
-    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="FreeSans.ttf", fontsize="10", URL="dir_cef700b09bfd17b888ee761eabfccc88.html"]
-  dir_085c912ccd85b305ed86906ef370ec76 [shape=box, label="fuzzy", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_085c912ccd85b305ed86906ef370ec76.html"];
-  }
-}

@@ -1,23 +1,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-55619345-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>Fuzzy Logic: Página principal</title>
+<title>Yaflengine: Página principal</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -28,9 +30,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="fl.ico"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Fuzzy Logic
+   <div id="projectname">Yaflengine
+   &#160;<span id="projectnumber">1.0</span>
    </div>
-   <div id="projectbrief">Librería compacta de lógica difusa</div>
+   <div id="projectbrief">Yet another Fuzzy Logic Engine</div>
   </td>
  </tr>
  </tbody>
@@ -38,28 +41,110 @@
 </div>
 <!-- end header part -->
 <!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li class="current"><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Clases</span></a></li>
       <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('index.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>&apos;typedefs&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>&apos;defines&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
 <div class="header">
   <div class="headertitle">
-<div class="title">Fuzzy Logic Documentación</div>  </div>
+<div class="title">Yaflengine Documentación</div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><h1><a class="anchor" id="sec_intro"></a>
+Introducción</h1>
+<p>El nombre Yaflengine viene de <em>Y otro motor de lógica difusa</em> por sus siglas en inglés. Es una librería que le permite realizar cálculos usando <a href="http://es.wikipedia.org/wiki/L%C3%B3gica_difusa">lógica difusa</a>. Está escrita en su totalidad en C++ y compila tanto en Windows como en Linux.</p>
+<p>Con Yaflengine podrá:</p>
+<ul>
+<li>Crear/modificar en tiempo de ejecución modelos. </li>
+<li>Guardar/Cargar modelos. El formato de los archivos es el de los <a href="http://es.wikipedia.org/wiki/INI_(extensi%C3%B3n_de_archivo)">archivos .ini</a> de Windows. </li>
+<li>Concatenar <code>N</code> modelos.</li>
+</ul>
+<p>Yaflengine esta escrito completamente en C++ y compila tanto en Windows como en Linux. El autor ha compilado el motor en una <a href="http://es.wikipedia.org/wiki/Raspberry_Pi">Rasberry Pi</a> corriendo <a href="http://es.wikipedia.org/wiki/Arch_Linux">Arch Linux</a>.</p>
+<p>La documentación está dividida en dos partes, cada una subdividida en varias secciones.</p>
+<p>La primera parte forma la guía de usuario.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Tareas pendientes:</a></b></dt><dd>Rellenar la lista de secciones que componen la guía de usuario</dd></dl>
+<p>La segunda parte forma el manual de referencia (manual API).</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Tareas pendientes:</a></b></dt><dd>Rellenar la lista de secciones que componen la API</dd></dl>
+<h2><a class="anchor" id="ssec_find"></a>
+Dónde encontrar Yaflengine</h2>
+<p>Yaflengine es la primera librería que hago accesible al público. Después de mirar diferentes opciones, me decidí por <a href="https://github.com/">GitHub</a>. La página web del proyecto se encuentra en <a href="http://di4l.github.io/yaflengine/">http://di4l.github.io/yaflengine/</a>. En la página podrá encontrar enlaces a la documentación que actualmente está leyendo, al código fuente, la última entrega estable y la wiki.</p>
+<p>Hay varios tipos de descargas que puede realizar. Si pretende compilar el proyecto uested mismo, debe descargar el código fuente, si por el contrario sólo está interesado en usar el motor en alguno de sus proyectos puede descargar los binarios y ficheros cabecera.</p>
+<ul>
+<li>Última entrega: <a href="https://github.com/Di4l/yaflengine/releases/latest">https://github.com/Di4l/yaflengine/releases/latest</a> </li>
+<li>Último desarrollo: <a href="https://github.com/Di4l/yaflengine">https://github.com/Di4l/yaflengine</a></li>
+</ul>
+<p>Existe una Wiki del proyecto (en desarrollo) donde encontrará infromación variada y enlaces a otras aprtes del proyecto. El enlace a la Wiki es <a href="https://github.com/Di4l/yaflengine/wiki">https://github.com/Di4l/yaflengine/wiki</a></p>
+<p>Por último, la documentación que está usted leyendo (en inglés) se encuentra en <a href="http://di4l.github.io/yaflengine/dev_doc/html/index.html">http://di4l.github.io/yaflengine/dev_doc/html/index.html</a></p>
+<h2><a class="anchor" id="ssec_copyright"></a>
+Licencia Yaflengine</h2>
+<p>Copyright (C) 2014 Raúl Hermoso Sánchez</p>
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+<p>You should have received a copy of the <a class="el" href="pag_license.html">GNU General Public License</a> along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA. </p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
 <hr class="footer"/><small>
-  <table width="90%" align="center" cellspacing="0" cellpadding="0"><tr>
-    <td align="right"><img class="footer" src="fl.ico" alt="Logo" width="32" height="32"/></td>
-    <td align="right" width="40%">
-      <table width="100%" align="center">
-        <tr><td><div id="footer">Fuzzy Logic</div></td></tr>
-        <tr><td><div id="footer">Librería compacta de lógica difusa</div></td></tr>
+  <table width="98%" align="center" cellspacing="0" cellpadding="0"><tr>
+    <td align="right"><img class="footer" src="fl.ico" alt="Logo" width="48" height="48"/></td>
+    <td align="right" width="15%">
+      <table width="100%">
+        <tr><td><div id="footer"><font size="4px">Yaflengine</font></div></td></tr>
+        <tr><td><div id="footer"><font size="2px">Yet another Fuzzy Logic Engine</font></div></td></tr>
+      </table>
+    </td>
   </tr></table>
 </small>
 </body></html>

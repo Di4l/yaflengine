@@ -1,6 +1,6 @@
 <map id="nsFuzzy::TFuzzyModel" name="nsFuzzy::TFuzzyModel">
-<area shape="rect" id="node2" href="$classns_fuzzy_1_1_t_fuzzy_base.html" title="nsFuzzy::TFuzzyBase" alt="" coords="108,97,252,124"/>
-<area shape="rect" id="node4" href="$classns_fuzzy_1_1_t_fuzzy_sets.html" title="nsFuzzy::TFuzzySets" alt="" coords="182,176,324,203"/>
-<area shape="rect" id="node5" href="$classns_fuzzy_1_1_t_fuzzy_rules.html" title="nsFuzzy::TFuzzyRules" alt="" coords="287,267,435,293"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="19,5,100,32"/>
+<area shape="rect" id="node2" href="$classns_fuzzy_1_1_t_fuzzy_base.html" title="nsFuzzy::TFuzzyBase" alt="" coords="105,97,257,124"/>
+<area shape="rect" id="node4" href="$classns_fuzzy_1_1_t_fuzzy_sets.html" title="nsFuzzy::TFuzzySets" alt="" coords="183,176,333,203"/>
+<area shape="rect" id="node5" href="$classns_fuzzy_1_1_t_fuzzy_rules.html" title="nsFuzzy::TFuzzyRules" alt="" coords="291,267,447,293"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="20,5,100,32"/>
 </map>

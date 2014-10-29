@@ -45,6 +45,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_ab7840c370ab5d5e2d508654b22ae9fa4.html#ab7840c370ab5d5e2d508654b22ae9fa4"><param name="Name" value="configurationHint"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a07157402787b6ab788565c0c195e3c1b.html#a07157402787b6ab788565c0c195e3c1b"><param name="Name" value="createData"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a42ad278ce56e5790ab542ea3cb8f75e9.html#a42ad278ce56e5790ab542ea3cb8f75e9"><param name="Name" value="DCAST"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a77ba9695df5297e2bf63758b503fe73c.html#a77ba9695df5297e2bf63758b503fe73c"><param name="Name" value="defuzzyfy"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a314ebe5681215a7a5c1cf634b5862f92.html#a314ebe5681215a7a5c1cf634b5862f92"><param name="Name" value="del"></OBJECT>
   <UL>
@@ -66,7 +67,27 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a62043526af978d7c64c619007fe8df6f.html#a62043526af978d7c64c619007fe8df6f"><param name="Name" value="nsFuzzy::TFuzzyVal"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_aa57b64729e1156b65d902220b5fed4fd.html#aa57b64729e1156b65d902220b5fed4fd"><param name="Name" value="exeFunction"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_aeac28e2f2f17c231043b8414beebf59c.html#aeac28e2f2f17c231043b8414beebf59c"><param name="Name" value="FFuzzyFunction"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_ad2115870976128b1207b6513763dfbf6.html#ad2115870976128b1207b6513763dfbf6"><param name="Name" value="file"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8hpp_ab7a88f12937c6fdd658c232d32e2f795.html#ab7a88f12937c6fdd658c232d32e2f795"><param name="Name" value="FL_CRV_COUNT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ad2d1f290a790889842466320d7afe681.html#ad2d1f290a790889842466320d7afe681"><param name="Name" value="FL_ID_EXEC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_acf683ed8a2c228e34f8e80b8307745c7.html#acf683ed8a2c228e34f8e80b8307745c7"><param name="Name" value="FL_ID_FUN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a0fc33cfe2e7aa5267c29bc2af3e51d69.html#a0fc33cfe2e7aa5267c29bc2af3e51d69"><param name="Name" value="FL_ID_FUNS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_af1af758c90350bcd6cebd2ffdd896fa7.html#af1af758c90350bcd6cebd2ffdd896fa7"><param name="Name" value="FL_ID_MOD"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a6ee9f5fb08c4e8a1da76073b0483a674.html#a6ee9f5fb08c4e8a1da76073b0483a674"><param name="Name" value="FL_ID_MOD_TREE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a558ca3cc49923b00764b7325e4b0920e.html#a558ca3cc49923b00764b7325e4b0920e"><param name="Name" value="FL_ID_MODS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ad8b96ad8dc1eaaf81e30bd9560b9e480.html#ad8b96ad8dc1eaaf81e30bd9560b9e480"><param name="Name" value="FL_ID_OBJS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_afc732b0c125aab4135c9c7a0e1564bff.html#afc732b0c125aab4135c9c7a0e1564bff"><param name="Name" value="FL_ID_RUL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_af80616a05a535d3ee1a46171110a3d62.html#af80616a05a535d3ee1a46171110a3d62"><param name="Name" value="FL_ID_SET"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a5cabe1a7213437d254094a52d9b77c6b.html#a5cabe1a7213437d254094a52d9b77c6b"><param name="Name" value="FL_ID_SETS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a5b215cdc48b77d279ec5fe8b0372ac33.html#a5b215cdc48b77d279ec5fe8b0372ac33"><param name="Name" value="FL_ID_UNDEFINED"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a2c1ff5d30b4d9323fc65c8ca7a958c15.html#a2c1ff5d30b4d9323fc65c8ca7a958c15"><param name="Name" value="FL_ID_VAL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzbase_8hpp_a907b1ff321f2d1a53af37d431e0d51bd.html#a907b1ff321f2d1a53af37d431e0d51bd"><param name="Name" value="FL_INVALID_ERROR_CODE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a4146fe39b9fb50c876e4c70f31264720.html#a4146fe39b9fb50c876e4c70f31264720"><param name="Name" value="FL_INVALID_HANDLE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8cpp_a504f16fe2597e23c78db19854a24b145.html#a504f16fe2597e23c78db19854a24b145"><param name="Name" value="FL_SCRIPT_MODEL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8cpp_ae7c6e323c91fe3207da266b4b145a454.html#ae7c6e323c91fe3207da266b4b145a454"><param name="Name" value="FL_SCRIPT_RULES"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8cpp_adf4999647959be7b3882fb57a2378ab4.html#adf4999647959be7b3882fb57a2378ab4"><param name="Name" value="FL_SCRIPT_SETS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzbase_8hpp_a1c87b15b987ed1844e53d68375feda2b.html#a1c87b15b987ed1844e53d68375feda2b"><param name="Name" value="FL_UNDEFINED_ERROR_CODE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_af8b67ed0e715938e465da16e516b7ff9.html#af8b67ed0e715938e465da16e516b7ff9"><param name="Name" value="Function"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_ac99af4eb7fc5d3b3b68a30343410ea2d.html#ac99af4eb7fc5d3b3b68a30343410ea2d"><param name="Name" value="function"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a620c3bae90bb6f319939e7cdf562388f.html#a620c3bae90bb6f319939e7cdf562388f"><param name="Name" value="functions"></OBJECT>
@@ -75,10 +96,71 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a246346b9318dcb19d796834ff76cf612.html#a246346b9318dcb19d796834ff76cf612"><param name="Name" value="nsFuzzy::TStdFuzzyFunctions"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_af9b5a8599adf728e61645bb19fc0b849.html#af9b5a8599adf728e61645bb19fc0b849"><param name="Name" value="fuzzexemap"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_af9b5a8599adf728e61645bb19fc0b849.html#af9b5a8599adf728e61645bb19fc0b849"><param name="Name" value="fzexecution.hpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_af9b5a8599adf728e61645bb19fc0b849.html#af9b5a8599adf728e61645bb19fc0b849"><param name="Name" value="nsFuzzy"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_aa89f1efb5ff4c6937fb9d058fcf62156.html#aa89f1efb5ff4c6937fb9d058fcf62156"><param name="Name" value="fuzzlist"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ad004b22f71c953cbb15dcb0c0d43e866.html#ad004b22f71c953cbb15dcb0c0d43e866"><param name="Name" value="fuzzmap"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_a12b6f1ee0effadbfbefded8e2a8e84ea.html#a12b6f1ee0effadbfbefded8e2a8e84ea"><param name="Name" value="fuzzrullist"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_a12b6f1ee0effadbfbefded8e2a8e84ea.html#a12b6f1ee0effadbfbefded8e2a8e84ea"><param name="Name" value="fzexecution.hpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_a12b6f1ee0effadbfbefded8e2a8e84ea.html#a12b6f1ee0effadbfbefded8e2a8e84ea"><param name="Name" value="nsFuzzy"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_aa64f6a797444d237fb1e67843ebf2bbf.html#aa64f6a797444d237fb1e67843ebf2bbf"><param name="Name" value="fuzzvar"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a42ad278ce56e5790ab542ea3cb8f75e9.html"><param name="Name" value="fuzzy.hpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a42ad278ce56e5790ab542ea3cb8f75e9.html#a42ad278ce56e5790ab542ea3cb8f75e9"><param name="Name" value="DCAST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_aeac28e2f2f17c231043b8414beebf59c.html#aeac28e2f2f17c231043b8414beebf59c"><param name="Name" value="FFuzzyFunction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ad2d1f290a790889842466320d7afe681.html#ad2d1f290a790889842466320d7afe681"><param name="Name" value="FL_ID_EXEC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_acf683ed8a2c228e34f8e80b8307745c7.html#acf683ed8a2c228e34f8e80b8307745c7"><param name="Name" value="FL_ID_FUN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a0fc33cfe2e7aa5267c29bc2af3e51d69.html#a0fc33cfe2e7aa5267c29bc2af3e51d69"><param name="Name" value="FL_ID_FUNS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_af1af758c90350bcd6cebd2ffdd896fa7.html#af1af758c90350bcd6cebd2ffdd896fa7"><param name="Name" value="FL_ID_MOD"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a6ee9f5fb08c4e8a1da76073b0483a674.html#a6ee9f5fb08c4e8a1da76073b0483a674"><param name="Name" value="FL_ID_MOD_TREE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a558ca3cc49923b00764b7325e4b0920e.html#a558ca3cc49923b00764b7325e4b0920e"><param name="Name" value="FL_ID_MODS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ad8b96ad8dc1eaaf81e30bd9560b9e480.html#ad8b96ad8dc1eaaf81e30bd9560b9e480"><param name="Name" value="FL_ID_OBJS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_afc732b0c125aab4135c9c7a0e1564bff.html#afc732b0c125aab4135c9c7a0e1564bff"><param name="Name" value="FL_ID_RUL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_af80616a05a535d3ee1a46171110a3d62.html#af80616a05a535d3ee1a46171110a3d62"><param name="Name" value="FL_ID_SET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a5cabe1a7213437d254094a52d9b77c6b.html#a5cabe1a7213437d254094a52d9b77c6b"><param name="Name" value="FL_ID_SETS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a5b215cdc48b77d279ec5fe8b0372ac33.html#a5b215cdc48b77d279ec5fe8b0372ac33"><param name="Name" value="FL_ID_UNDEFINED"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a2c1ff5d30b4d9323fc65c8ca7a958c15.html#a2c1ff5d30b4d9323fc65c8ca7a958c15"><param name="Name" value="FL_ID_VAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_a4146fe39b9fb50c876e4c70f31264720.html#a4146fe39b9fb50c876e4c70f31264720"><param name="Name" value="FL_INVALID_HANDLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_aa89f1efb5ff4c6937fb9d058fcf62156.html#aa89f1efb5ff4c6937fb9d058fcf62156"><param name="Name" value="fuzzlist"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ad004b22f71c953cbb15dcb0c0d43e866.html#ad004b22f71c953cbb15dcb0c0d43e866"><param name="Name" value="fuzzmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_aa64f6a797444d237fb1e67843ebf2bbf.html#aa64f6a797444d237fb1e67843ebf2bbf"><param name="Name" value="fuzzvar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ac10fe6396457761bf0aad1a4fcbe68a9.html#ac10fe6396457761bf0aad1a4fcbe68a9"><param name="Name" value="fzhndl"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_ac7f58c4d12171f7c31ba0ed60678731e.html#ac7f58c4d12171f7c31ba0ed60678731e"><param name="Name" value="fuzzyfy"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_exec_data_a0332cc37cbb49777379a6dfc6d00fb24.html#a0332cc37cbb49777379a6dfc6d00fb24"><param name="Name" value="fuzzySet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzexecution_8cpp_a1b78e034db7b9187e9f9ede34468a1e6.html#a1b78e034db7b9187e9f9ede34468a1e6"><param name="Name" value="FZ_EXE_DELTA_EXEC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzexecution_8cpp_a86e55bd9ac6b550484b681f86dd98619.html#a86e55bd9ac6b550484b681f86dd98619"><param name="Name" value="FZ_INVALID_RESULT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzbase_8hpp_a907b1ff321f2d1a53af37d431e0d51bd.html"><param name="Name" value="fzbase.hpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzbase_8hpp_a907b1ff321f2d1a53af37d431e0d51bd.html#a907b1ff321f2d1a53af37d431e0d51bd"><param name="Name" value="FL_INVALID_ERROR_CODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzbase_8hpp_a1c87b15b987ed1844e53d68375feda2b.html#a1c87b15b987ed1844e53d68375feda2b"><param name="Name" value="FL_UNDEFINED_ERROR_CODE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzexecution_8cpp_a1b78e034db7b9187e9f9ede34468a1e6.html"><param name="Name" value="fzexecution.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzexecution_8cpp_a1b78e034db7b9187e9f9ede34468a1e6.html#a1b78e034db7b9187e9f9ede34468a1e6"><param name="Name" value="FZ_EXE_DELTA_EXEC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzexecution_8cpp_a86e55bd9ac6b550484b681f86dd98619.html#a86e55bd9ac6b550484b681f86dd98619"><param name="Name" value="FZ_INVALID_RESULT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzexecution_8cpp_a6b82860d7a8b9daa9c8ee9ed59486c98.html#a6b82860d7a8b9daa9c8ee9ed59486c98"><param name="Name" value="Objects"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_af9b5a8599adf728e61645bb19fc0b849.html"><param name="Name" value="fzexecution.hpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_af9b5a8599adf728e61645bb19fc0b849.html#af9b5a8599adf728e61645bb19fc0b849"><param name="Name" value="fuzzexemap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacens_fuzzy_a12b6f1ee0effadbfbefded8e2a8e84ea.html#a12b6f1ee0effadbfbefded8e2a8e84ea"><param name="Name" value="fuzzrullist"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzfunction_8hpp_a8d91a470fea4006cc891efdf716a6788.html"><param name="Name" value="fzfunction.hpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fuzzy_8hpp_ac10fe6396457761bf0aad1a4fcbe68a9.html#ac10fe6396457761bf0aad1a4fcbe68a9"><param name="Name" value="fzhndl"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8cpp_a504f16fe2597e23c78db19854a24b145.html"><param name="Name" value="fzmodel.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8cpp_a504f16fe2597e23c78db19854a24b145.html#a504f16fe2597e23c78db19854a24b145"><param name="Name" value="FL_SCRIPT_MODEL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8cpp_ae7c6e323c91fe3207da266b4b145a454.html#ae7c6e323c91fe3207da266b4b145a454"><param name="Name" value="FL_SCRIPT_RULES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8cpp_adf4999647959be7b3882fb57a2378ab4.html#adf4999647959be7b3882fb57a2378ab4"><param name="Name" value="FL_SCRIPT_SETS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzmodel_8hpp_ab7a88f12937c6fdd658c232d32e2f795.html"><param name="Name" value="fzmodel.hpp"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a0678c36c56ff6b48e95aeef875bb7e79.html#a0678c36c56ff6b48e95aeef875bb7e79"><param name="Name" value="gaussBell"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="pag_user_manual.html"><param name="Name" value="Guía de usuario"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a54902ac6c53aeddacde3b0c4b89bb3f4.html#a54902ac6c53aeddacde3b0c4b89bb3f4"><param name="Name" value="handle"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_ini_file_1_1_t_ini_file_af9939d48df0d4e5b6afe0c008e291b8d.html#af9939d48df0d4e5b6afe0c008e291b8d"><param name="Name" value="header"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a987405905a2900117d79cd9d70c9cf71.html#a987405905a2900117d79cd9d70c9cf71"><param name="Name" value="id"></OBJECT>
@@ -88,12 +170,14 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a91aa0d20527efba6361f63f73eb6cd14.html#a91aa0d20527efba6361f63f73eb6cd14"><param name="Name" value="instances"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a271eb125ef6d91e0621245ca4efe14f4.html#a271eb125ef6d91e0621245ca4efe14f4"><param name="Name" value="interpolate"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_a64befee8d6e9dd52750be69dc7a11e48.html#a64befee8d6e9dd52750be69dc7a11e48"><param name="Name" value="invalid"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzfunction_8hpp_a8d91a470fea4006cc891efdf716a6788.html#a8d91a470fea4006cc891efdf716a6788"><param name="Name" value="INVALID_FUNC"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a5a4a5166b89a94f4bf2bfa8a9da7bce5.html#a5a4a5166b89a94f4bf2bfa8a9da7bce5"><param name="Name" value="invalidNumber"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_a2febf669abe1f3f591831febd126e629.html#a2febf669abe1f3f591831febd126e629"><param name="Name" value="invalidObject"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a78477c1d8fc0dd0b231af76e5728cc59.html#a78477c1d8fc0dd0b231af76e5728cc59"><param name="Name" value="inverseSCurve"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_std_fuzzy_functions_a337a1a5000e926cd743b401ee27fd6fa.html#a337a1a5000e926cd743b401ee27fd6fa"><param name="Name" value="inverseTriangle"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a338cb14be22587788c81afa6c83db9db.html#a338cb14be22587788c81afa6c83db9db"><param name="Name" value="line"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_rule_a1204c7b0aeca332018eb1beca8c2b425.html#a1204c7b0aeca332018eb1beca8c2b425"><param name="Name" value="Links"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="todo.html"><param name="Name" value="Lista de tareas pendientes"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_ini_file_1_1_t_ini_file_ac8ad28e1fbfa46b9526c92888aa88527.html#ac8ad28e1fbfa46b9526c92888aa88527"><param name="Name" value="loadFile"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_model_a63fda01d8327c31e73e7f06b6f2b3fc4.html#a63fda01d8327c31e73e7f06b6f2b3fc4"><param name="Name" value="loadFromFile"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_exec_a34c6f679d2fdc26de9abeecdb6a34840.html#a34c6f679d2fdc26de9abeecdb6a34840"><param name="Name" value="log"></OBJECT>
@@ -156,6 +240,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_ac7552fe4367778beff054767d796e05b.html#ac7552fe4367778beff054767d796e05b"><param name="Name" value="m_uiLine"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_val_a032a261c8605800f0acfc0190ff0eecf.html#a032a261c8605800f0acfc0190ff0eecf"><param name="Name" value="m_vParams"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_rules_af8db0a87b68dfdcb0293e9dfb8c8846b.html#af8db0a87b68dfdcb0293e9dfb8c8846b"><param name="Name" value="m_vRules"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="pag_api_ref.html"><param name="Name" value="Manual de la API"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a59f2a1795b87ce6869eaa13edadc849f.html#a59f2a1795b87ce6869eaa13edadc849f"><param name="Name" value="max"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_set_a59f2a1795b87ce6869eaa13edadc849f.html#a59f2a1795b87ce6869eaa13edadc849f"><param name="Name" value="nsFuzzy::TFuzzySet"></OBJECT>
@@ -456,6 +541,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_ini_file_1_1_t_section_a75ebf18be7097d233a5113e9cbe4425e.html#a75ebf18be7097d233a5113e9cbe4425e"><param name="Name" value="size"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_ini_file_1_1_t_section_a6fa9bf84c9ea2c3641a06bf633c3c538.html#a6fa9bf84c9ea2c3641a06bf633c3c538"><param name="Name" value="TSection"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fzexecution_8cpp_a6b82860d7a8b9daa9c8ee9ed59486c98.html#a6b82860d7a8b9daa9c8ee9ed59486c98"><param name="Name" value="Objects"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_aeaea5720e0cfa920e03a381bb6f660d3.html#aeaea5720e0cfa920e03a381bb6f660d3"><param name="Name" value="objects"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_aeaea5720e0cfa920e03a381bb6f660d3.html#aeaea5720e0cfa920e03a381bb6f660d3"><param name="Name" value="nsFuzzy::TFuzzyBase"></OBJECT>
@@ -550,6 +636,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a34878cc5a2113dd8d9ffba788353dd60.html#a34878cc5a2113dd8d9ffba788353dd60"><param name="Name" value="what"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a0dfbb2220564147d1cee14b794481088.html#a0dfbb2220564147d1cee14b794481088"><param name="Name" value="where"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_a3a12b88b7e754f8080aaef0a2dbeee00.html#a3a12b88b7e754f8080aaef0a2dbeee00"><param name="Name" value="why"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="pag_license.html"><param name="Name" value="Yaflengine License"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="structns_fuzzy_1_1_s_fuzzy_function_ad2fdd00a49e6647ed6bd1aa69d505b03.html#ad2fdd00a49e6647ed6bd1aa69d505b03"><param name="Name" value="~SFuzzyFunction"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_base_ad7d637b1f93d308a21286db50efc4ad0.html#ad7d637b1f93d308a21286db50efc4ad0"><param name="Name" value="~TFuzzyBase"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classns_fuzzy_1_1_t_fuzzy_error_ad4aca73e67a567ba2bf1f9a1a25a777a.html#ad4aca73e67a567ba2bf1f9a1a25a777a"><param name="Name" value="~TFuzzyError"></OBJECT>
