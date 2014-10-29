@@ -47,19 +47,19 @@
 	//-------------------------------------------------------------------------
 	/** Tipo que define un valor */
 	typedef float                     fuzzvar;
-	/** Descriptor que identifica un objeto de esta librer铆a */
+	/** Descriptor que identifica un objeto de esta librer韆 */
 	typedef unsigned int              fzhndl;
-	/** Tipo que define una lista de par谩metros */
+	/** Tipo que define una lista de par醡etros */
 	typedef std::vector<fuzzvar>      fuzzlist;
-	/** Tipo que define un mapa de par谩metros */
+	/** Tipo que define un mapa de par醡etros */
 	typedef std::map<fzhndl, fuzzvar> fuzzmap;
-	/** Prototipo de funci贸n */
+	/** Prototipo de funci髇 */
 	typedef fuzzvar (*FFuzzyFunction)(fuzzlist&, fuzzvar);
 	//-------------------------------------------------------------------------
 //};
 //-----------------------------------------------------------------------------
 
-/** Handle incorrecto o inv谩lido */
+/** Handle incorrecto o inv醠ido */
 #define FL_INVALID_HANDLE	0x80000000
 //-----------------------------------------------------------------------------
 
@@ -69,7 +69,7 @@
 #define FL_ID_UNDEFINED 0x7FFFFFFF
 /** Clase objetos */
 #define FL_ID_OBJS      0x01
-/** Clase funci贸n */
+/** Clase funci髇 */
 #define FL_ID_FUN       0x02
 /** Clase funciones */
 #define FL_ID_FUNS      0x03
@@ -81,13 +81,13 @@
 #define FL_ID_SETS      0x06
 /** Clase regla */
 #define FL_ID_RUL       0x07
-/** Clase 谩rbol de m贸dulo */
+/** Clase 醨bol de m骴ulo */
 #define FL_ID_MOD_TREE  0x08
-/** Clase m贸dulo */
+/** Clase m骴ulo */
 #define FL_ID_MOD       0x09
-/** Clase m贸dulo */
+/** Clase m骴ulo */
 #define FL_ID_MODS      0x0A
-/** Clase ejecuci贸n */
+/** Clase ejecuci髇 */
 #define FL_ID_EXEC		0x0B
 //-----------------------------------------------------------------------------
 
