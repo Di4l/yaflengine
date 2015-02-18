@@ -43,7 +43,7 @@ namespace nsFuzzy
 	/**
 	 * Define un conjunto (set) en lógica difusa. Un conjunto define, mediante
 	 * \a valores (TFuzzyVal), los diferentes estados de una propiedad \a
-	 * medible. Un ejemplo de conjunto podría ser la temperatura de una
+	 * mensurable. Un ejemplo de conjunto podría ser la temperatura de una
 	 * caldera, y algunos de sus \a valores serían: Caliente, Frío, Templado...
 	 *
 	 * \sa TFuzzyVal, TFuzzySets, TFuzzyModel

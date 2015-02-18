@@ -59,7 +59,7 @@
 //};
 //-----------------------------------------------------------------------------
 
-/** Handle incorrecto o inválido */
+/** Descriptor incorrecto o inválido */
 #define FL_INVALID_HANDLE	0x80000000
 //-----------------------------------------------------------------------------
 
@@ -248,16 +248,68 @@ extern "C"
  * ayudarle a acelerar el proceso de aprendizaje y conseguir que se encuentre
  * cómodo lo más rápido posible usando este motor.
  *
+ * Esta página está dividida en varias secciones:
+ *
+ * \li \ref sec_ug_install indica cómo instalar el código fuente y/o los
+ * binarios de Yaflengine para poder usarlos en sus proyectos.
+ * \li \ref sec_ug_start le guía en la creacion de su primer proyecto con
+ * Yaflengine.
+ *
+ * \ref sec_ug_install "Siguiente"
+ *
  * \section sec_ug_install Instalación
  *
  * \todo Completar la guía de instalación
+ * \ref pag_user_manual "Anterior" | \ref sec_ug_start "Siguiente"
  *
  * \section sec_ug_start Comenzando
  *
  * \todo Completar una guía de "comenzando"
  *
+ * \ref sec_ug_install "Anterior"
+ *
+ *
+ *
  * \page pag_api_ref Manual de la API
  *
- * \todo Rellenar aqui una especie de introducción de la API
+ * Yaflengine se compone de una serie de clases y estructuras relacionadas
+ * entre sí mediante dependencias, métodos y jerarquías. Para sentar una base
+ * común al paquete, existe una clase base (nsFuzzy::TFuzzyBase) de la que
+ * heredan todas las demás (o casi todas). Esta clase contiene información
+ * común a todas las clases de la librería así como algunos métodos comunes.
+ *
+ * Yaflengine gestiona los errores producidos mediante excepciones. La clase
+ * nsFuzzy::TFuzzyError es la otra estructura fundamental en el entorno del
+ * motor. Contiene métodos y miembros que permiten, utilizada correctamente,
+ * mostrar información detallada de los errores producidos.
+ *
+ * Todos los errores gestionados por Yaflengine contienen tres datos
+ * fundamentales a la hora de localizar y analizar el problema:
+ *
+ * \li <b>Qué</b>. Indica qué es lo que ha fallado o qué ha producido el error.
+ * \li <b>Por qué</b>. Describe la razón por la que se produjo el error.
+ * \li <b>Dónde</b>. Indica dónde se ha producido el error. Identifica la línea
+ * y archivo donde se lanzó la excepción.
+ *
+ * Sobre estas dos clases se construye el resto de la librería. Es importante
+ * que eche un vistazo a la documentación de estas dos bestias antes de
+ * continuar. No es necesario que se las aprenda de memoria, con tener una
+ * ligera idea de qué miembros y métodos contiene es suficiente para empezar.
+ *
+ * Para entender mejor el rol que el resto de las clases desempeñan,
+ * imaginaremos dos catgeorías diferenciadas: Definición y Ejecución. El primer
+ * grupo se encarga de definir un modelo lógico. El segundo grupo se encarga de
+ * operar sobre esos modelos para realizar cálculos. Casi todas las clases del
+ * motor pertenecen al primer grupo.
+ *
+ * Un modelo (nsFuzzy::TFuzzyModel) es una serie de conjuntos (nsFuzzy::TFuzzySet)
+ * interrelacionados entre sí por una serie de reglas (nsFuzzy::TFuzzyRules).
+ * Para entender mejor esto, debemos definir <em>conjunto</em> y <em>regla</em>.
+ * Un <em>conjunto</em> es una propiedad mensurable y/o manipulable de un
+ * sistema. Por ejemplo <em>Temperatura</em>, <em>Voltaje</em> o <em>Tamaño</em>.
+ * El hecho de ser mensurable y/o anipulables depende del sistema a modelar
+ * (caso de estudio) y la razón de ser mensurable y/o manipulables es simple
+ * lógica. No tiene sentido definir el conjunto <em>Temperatura</em> si no se
+ * va a poder medir o modificar su valor.
  *
  */
