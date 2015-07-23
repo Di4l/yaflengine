@@ -1,15 +1,19 @@
-yaflengine
-==========
+# Yaflengine
 
-Yet Another Fuzzy Logic engine for C++
---------------------------------------
+Yaflengine stands for _Yet Another Fuzzy Logic Engine_. The framework adds <a href="http://en.wikipedia.org/wiki/Fuzzy_logic">Fuzzy Logic</a> capabilities to your projects. Some features of the engine are listed below:
 
-This library contains a fuzzy logic framework for performing calculations. Models can be stored/created in plain text files or can be hard-coded. It allows model nesting, where the output of some model becomes the input of another. The rule system is pretty easy to grasp, with sentences like:
+ + Create/Modify models at runtime.
+ + Load/Save models. The file format used is that of <a href="http://en.wikipedia.org/wiki/INI_file">Windows INI</a> files.
+ + Nest models together into a single execution run to perform complex calculations.
+ + Allow modifiers in rule syntax.
 
- + if temperature.high then fan.full_power
+The framework is written enterely in C++ and compiles both in Windows and Linux. The author has even compiled it in a Raspberry Pi running Arch Linux.
 
-It also allows for modifiers such "very" and "little". An example:
+You can find more information on the <a href="https://github.com/Di4l/yaflengine/wiki">Wiki</a> and in the project's <a href="http://di4l.github.io/yaflengine/dev_doc/html_es/index.html">documentation</a>.
 
- + if altitude.very.high and speed.low then pitch.down
+### License
 
-This package uses another library I created for loading and parsing Windows ".ini" style files.
+This project is released under the GNU General Public License version 2 terms and conditions. You can read the full license in the LICENSE file attached to the root folder of the project.
+
+Copyright (C) 2014  Raúl Hermoso Sánchez<br>
+Contact: <mailto:raul.hermoso@gmail.com>
