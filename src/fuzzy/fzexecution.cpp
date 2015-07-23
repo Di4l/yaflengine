@@ -77,7 +77,7 @@ void TExecData::clearInputs()
 	while(!m_emInputs.empty())
 	{
 		//-- Do NOT delete the TExecData of our siblings, as we did not create
-		//   them. We were given to us in our add() method
+		//   them. They were given to us in our add() method
 //		delete m_emInputs.begin()->second;
 		m_emInputs.begin()->second = NULL;
 		m_emInputs.erase(m_emInputs.begin());
@@ -87,7 +87,7 @@ void TExecData::clearInputs()
 
 void TExecData::clearRules()
 {
-	//-- Do NOT delete the SRulAtom* as it was not created by us.
+	//-- Do NOT delete the SRuleAtom* as it was not created by us.
 	m_rlRules.clear();
 }
 //-----------------------------------------------------------------------------
